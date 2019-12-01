@@ -79,6 +79,8 @@
 #include "queue.h"
 
 #include "esp32_AT.h"
+#include "at.h"
+
 #include "debug_serial.h"
 /* Priorities used by the tasks. */
 #define mainQUEUE_RECEIVE_TASK_PRIORITY		( tskIDLE_PRIORITY + 2 )
@@ -131,6 +133,8 @@ static void led_ctrl(const char led_buf[4]);
 static void test0(void);
 static void test1(void);
 static void test2(void);
+static void test3(void);
+static void test4(void);
 
 /*-----------------------------------------------------------*/
 
@@ -195,61 +199,38 @@ BaseType_t xReturned;
 	/* Initialise xNextWakeTime - this only needs to be done once. */
 	xNextWakeTime = xTaskGetTickCount();
 
-	memset(s_msg, 0, sizeof(s_msg));
+	/* Restart esp32 module */
+	AT_cmd("AT+RST\r\n", 1000, s_msg, sizeof(s_msg));  // reset esp32
+	AT_cmd("ATE0\r\n", 200, s_msg, sizeof(s_msg)); // switch echo off
+	AT_cmd("AT\r\n", 100, s_msg, sizeof(s_msg));  // test AT
 
-	/* Restart esp32 module */
-//	esp32_reset_module();  // reset esp32
-//	esp32_echo_off();  // switch echo off
-//	esp32_send_cmd("AT\r\n", 100);  // test AT
-	/* Restart esp32 module */
-	AT_reset(1000, s_msg, sizeof(s_msg));  // reset esp32
-	AT_echo_off(200, s_msg, sizeof(s_msg)); // switch echo off
-	AT_at(100, s_msg, sizeof(s_msg));  // test AT
 
 	s_is_connect = AT_DISCONNECT;
 
-//	AT_cmd("AT+RST\r\n", 1000, s_msg, sizeof(s_msg));
-//	AT_cmd("ATE0\r\n", 200, s_msg, sizeof(s_msg));
-//	AT_cmd("AT+CWMODE=1\r\n", 100, s_msg, sizeof(s_msg));
-
-//	/* Connect to Wifi */
-//	memset(s_msg, 0, sizeof(s_msg)); // clear buffer
-//	esp32_recv(0,0); // clear esp32 queue message
-//	esp32_wifi_conn(WIFI_SSID, WIFI_PASS, 6000); // connect to wifi
-//	esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
-//	esp32_ret = AT_ERROR; // reset esp32 return
-//	process_message(s_msg, sizeof(s_msg)); // process buffer
-
 	/* Connect to Wifi */
-//	AT_wifi_mode_station();
 	AT_wifi_mode_station(100, s_msg, sizeof(s_msg));
-//	memset(s_msg, 0, sizeof(s_msg));
-//	esp32_ret = AT_wifi_conn(WIFI_SSID, WIFI_PASS, 6000, s_msg, sizeof(s_msg)); // connect to wifi
-//
-//	configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
+	esp32_ret = AT_wifi_conn(WIFI_SSID, WIFI_PASS, 6000, s_msg, sizeof(s_msg)); // connect to wifi
 
-////////////////////////////
-//	/* Connect to AWS */
-//	memset(s_msg, 0, sizeof(s_msg)); // clear buffer
-//	esp32_recv(0,0); // clear esp32 queue message
-//	esp32_send_cmd("AT+CIPSTART=\"TCP\",\"hifivedemo.s3-ap-southeast-1.amazonaws.com\",80,2\r\n", 1200); // connect to AWS
-//	esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
-//	esp32_ret = AT_ERROR;  s_is_connect = AT_DISCONNECT;  // reset esp32 return
-//	process_message(s_msg, sizeof(s_msg)); // process buffer
-//	configASSERT( s_is_connect == AT_CONNECT );
-//
-//	esp32_send_cmd("AT+CIPSEND=76\r\n", 100);
-//	memset(s_msg, 0, sizeof(s_msg));
-//	esp32_recv(0,0); // clear esp32 queue message
-//	esp32_send_cmd("GET /data.txt HTTP/1.1\r\nHost: hifivedemo.s3-ap-southeast-1.amazonaws.com\r\n\r\n", 2000);
-//
-//	esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message
-//	process_message(s_msg, sizeof(s_msg));
-//
-//	esp32_send_cmd("AT+CIPCLOSE\r\n", 100);
-//
-//	led_ctrl(s_led_buf);
-//	vTaskDelay( ( TickType_t )1000 / portTICK_PERIOD_MS ); //delay ms
+	configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
+
+//////////////////////////
+	/* Connect to AWS */
+	esp32_ret = AT_cmd("AT+CIPSTART=\"TCP\",\"hifivedemo.s3-ap-southeast-1.amazonaws.com\",80,2\r\n", 1200, s_msg, sizeof(s_msg));  // connect to AWS
+	esp32_ret = AT_ERROR;  s_is_connect = AT_DISCONNECT;  // reset esp32 return
+	process_message(s_msg, sizeof(s_msg)); // process buffer
+	configASSERT( s_is_connect == AT_CONNECT );
+
+	if( AT_cmd("AT+CIPSEND=76\r\n", 100, s_msg, sizeof(s_msg)) == AT_OK )  // connect to AWS
+	{
+		AT_cmd("GET /data.txt HTTP/1.1\r\nHost: hifivedemo.s3-ap-southeast-1.amazonaws.com\r\n\r\n", 2000, s_msg, sizeof(s_msg));
+		process_message(s_msg, sizeof(s_msg));
+	}
+
+	AT_cmd("AT+CIPCLOSE\r\n", 200, s_msg, sizeof(s_msg));
+
+	led_ctrl(s_led_buf);
+	vTaskDelay( ( TickType_t )1000 / portTICK_PERIOD_MS ); //delay ms
+
 
 	for( ;; )
 	{
@@ -468,80 +449,144 @@ static void test1(void)
 
 static void test2(void)
 {
-	/* TCP connect to AWS-S3 or skip if connected */
-	if(s_is_connect != AT_CONNECT)
+	memset(s_msg, 0, sizeof(s_msg));
+
+	/* Restart esp32 module */
+	esp32_reset_module();  // reset esp32
+	esp32_echo_off();  // switch echo off
+	esp32_send_cmd("AT\r\n", 100);  // test AT
+
+	s_is_connect = AT_DISCONNECT;
+
+	/* Connect to Wifi */
+	memset(s_msg, 0, sizeof(s_msg)); // clear buffer
+	esp32_recv(0,0); // clear esp32 queue message
+	esp32_wifi_conn(WIFI_SSID, WIFI_PASS, 6000); // connect to wifi
+	esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
+	esp32_ret = AT_ERROR; // reset esp32 return
+	process_message(s_msg, sizeof(s_msg)); // process buffer
+	configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
+
+	//////////
+	for(;;)
 	{
-		/* Connect to AWS-S3 */
-		memset(s_msg, 0, sizeof(s_msg)); // clear buffer
-		esp32_recv(0,0); // clear esp32 queue message
-		esp32_send_cmd("AT+CIPSTART=\"TCP\",\"hifivedemo.s3-ap-southeast-1.amazonaws.com\",80,2\r\n", 1200); // connect to AWS
-		esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
-		esp32_ret = AT_ERROR;  s_is_connect = AT_DISCONNECT;  // reset esp32 return
-		process_message(s_msg, sizeof(s_msg)); // process buffer
-		if(esp32_ret != AT_OK)
+		/* TCP connect to AWS-S3 or skip if connected */
+		if(s_is_connect != AT_CONNECT)
 		{
-			debug_puts("TCP connect error\n");
-			esp32_send_cmd("AT+CIPCLOSE\r\n", 200); // close tcp connection
-			s_is_connect = AT_DISCONNECT;
-			vTaskDelay( ( TickType_t )1000 / portTICK_PERIOD_MS ); //delay ms
-		}
-	}
-
-	if( s_is_connect == AT_CONNECT ) {
-		/* GET AWS-S3 data */
-		memset(s_msg, 0, sizeof(s_msg)); // clear buffer
-		esp32_recv(0,0); // clear queue
-		esp32_send_cmd("AT+CIPSEND=76\r\n", 100);
-		esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
-		esp32_ret = AT_ERROR; // reset esp32 return
-		process_message(s_msg, sizeof(s_msg)); // process buffer
-
-		if(esp32_ret == AT_OK) {
-			memset(s_msg, 0, sizeof(s_msg)); // clear buffer
-			esp32_recv(0,0); // clear queue
-			esp32_send_cmd("GET /data.txt HTTP/1.1\r\nHost: hifivedemo.s3-ap-southeast-1.amazonaws.com\r\n\r\n", 1500);
-			esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
-			esp32_ret = AT_ERROR; // reset esp32 return
-			process_message(s_msg, sizeof(s_msg)); // process buffer
-		}
-
-		if(esp32_ret != AT_OK)
-		{
-			debug_puts("TCP connect error\n");
-			esp32_send_cmd("AT+CIPCLOSE\r\n", 200); // close tcp connection
-			s_is_connect = AT_DISCONNECT;
-			vTaskDelay( ( TickType_t )1000 / portTICK_PERIOD_MS ); //delay ms
-		}
-
-		/* Control LEDs */
-		led_ctrl(s_led_buf);
-	}
-
-
-	/* Restart esp32 if receive nothing */
-	if(s_msg[0] == 0)
-	{
-		debug_puts("(null)\n");
-		count_down--;
-		if(count_down == 0) {
-			count_down = 10; // reset value
-			debug_puts("Restart esp32 module\n");
-
-			/* Restart esp32 module */
-			esp32_reset_module();  // reset esp32
-			esp32_echo_off();  // switch echo off
-
-			/* Connect to Wifi */
+			/* Connect to AWS-S3 */
 			memset(s_msg, 0, sizeof(s_msg)); // clear buffer
 			esp32_recv(0,0); // clear esp32 queue message
-			esp32_wifi_conn(WIFI_SSID, WIFI_PASS, 6000); // connect to wifi
+			esp32_send_cmd("AT+CIPSTART=\"TCP\",\"hifivedemo.s3-ap-southeast-1.amazonaws.com\",80,2\r\n", 1200); // connect to AWS
+			esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
+			esp32_ret = AT_ERROR;  s_is_connect = AT_DISCONNECT;  // reset esp32 return
+			process_message(s_msg, sizeof(s_msg)); // process buffer
+			if(esp32_ret != AT_OK)
+			{
+				debug_puts("TCP connect error\n");
+				esp32_send_cmd("AT+CIPCLOSE\r\n", 200); // close tcp connection
+				s_is_connect = AT_DISCONNECT;
+				vTaskDelay( ( TickType_t )1000 / portTICK_PERIOD_MS ); //delay ms
+			}
+		}
+
+		if( s_is_connect == AT_CONNECT ) {
+			/* GET AWS-S3 data */
+			memset(s_msg, 0, sizeof(s_msg)); // clear buffer
+			esp32_recv(0,0); // clear queue
+			esp32_send_cmd("AT+CIPSEND=76\r\n", 100);
 			esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
 			esp32_ret = AT_ERROR; // reset esp32 return
 			process_message(s_msg, sizeof(s_msg)); // process buffer
-//				configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
 
-			s_is_connect = AT_DISCONNECT;
+			if(esp32_ret == AT_OK) {
+				memset(s_msg, 0, sizeof(s_msg)); // clear buffer
+				esp32_recv(0,0); // clear queue
+				esp32_send_cmd("GET /data.txt HTTP/1.1\r\nHost: hifivedemo.s3-ap-southeast-1.amazonaws.com\r\n\r\n", 1500);
+				esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
+				esp32_ret = AT_ERROR; // reset esp32 return
+				process_message(s_msg, sizeof(s_msg)); // process buffer
+			}
+
+			if(esp32_ret != AT_OK)
+			{
+				debug_puts("TCP connect error\n");
+				esp32_send_cmd("AT+CIPCLOSE\r\n", 200); // close tcp connection
+				s_is_connect = AT_DISCONNECT;
+				vTaskDelay( ( TickType_t )1000 / portTICK_PERIOD_MS ); //delay ms
+			}
+
+			/* Control LEDs */
+			led_ctrl(s_led_buf);
 		}
+
+
+		/* Restart esp32 if receive nothing */
+		if(s_msg[0] == 0)
+		{
+			debug_puts("(null)\n");
+			count_down--;
+			if(count_down == 0) {
+				count_down = 10; // reset value
+				debug_puts("Restart esp32 module\n");
+
+				/* Restart esp32 module */
+				esp32_reset_module();  // reset esp32
+				esp32_echo_off();  // switch echo off
+
+				/* Connect to Wifi */
+				memset(s_msg, 0, sizeof(s_msg)); // clear buffer
+				esp32_recv(0,0); // clear esp32 queue message
+				esp32_wifi_conn(WIFI_SSID, WIFI_PASS, 6000); // connect to wifi
+				esp32_recv(s_msg, sizeof(s_msg)); // get esp32 queue message and store to buffer
+				esp32_ret = AT_ERROR; // reset esp32 return
+				process_message(s_msg, sizeof(s_msg)); // process buffer
+	//				configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
+
+				s_is_connect = AT_DISCONNECT;
+			}
+		}
+	}
+
+}
+
+void test3(void)
+{
+	/* Restart esp32 module */
+	AT_cmd("AT+RST\r\n", 1000, s_msg, sizeof(s_msg));  // reset esp32
+	AT_cmd("ATE0\r\n", 200, s_msg, sizeof(s_msg)); // switch echo off
+	AT_cmd("AT\r\n", 100, s_msg, sizeof(s_msg));  // test AT
+
+	s_is_connect = AT_DISCONNECT;
+
+	AT_cmd("AT+CWMODE=1\r\n", 100, s_msg, sizeof(s_msg));
+
+	/* Connect to Wifi */
+	AT_cmd("AT+CWMODE=1\r\n", 100, s_msg, sizeof(s_msg));
+	esp32_ret = AT_wifi_conn(WIFI_SSID, WIFI_PASS, 6000, s_msg, sizeof(s_msg)); // connect to wifi
+
+	configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
+
+	for(;;) { }
+}
+
+void test4(void)
+{
+	/* Restart esp32 module */
+	AT_reset(1000, s_msg, sizeof(s_msg));  // reset esp32
+	AT_echo_off(200, s_msg, sizeof(s_msg)); // switch echo off
+	AT_at(100, s_msg, sizeof(s_msg));  // test AT
+
+	s_is_connect = AT_DISCONNECT;
+
+	/* Connect to Wifi */
+	AT_wifi_mode_station(100, s_msg, sizeof(s_msg));
+	esp32_ret = AT_wifi_conn(WIFI_SSID, WIFI_PASS, 6000, s_msg, sizeof(s_msg)); // connect to wifi
+
+	configASSERT( esp32_ret == AT_OK );  // exit if disconnect to wifi
+
+	for(;;)
+	{
+
 	}
 }
 /*-----------------------------------------------------------*/

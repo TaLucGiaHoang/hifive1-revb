@@ -125,7 +125,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./stdio/do_printf.o
  .debug_macro   0x0000000000000000       0x58 ./stdio/do_printf.o
  .debug_line    0x0000000000000000      0x94d ./stdio/do_printf.o
- .debug_str     0x0000000000000000     0x5dbc ./stdio/do_printf.o
+ .debug_str     0x0000000000000000     0x5dbb ./stdio/do_printf.o
  .comment       0x0000000000000000       0x29 ./stdio/do_printf.o
  .debug_frame   0x0000000000000000       0x38 ./stdio/do_printf.o
  .riscv.attributes
@@ -265,8 +265,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./full_demo/Common_Demo_Tasks/TaskNotify.o
  .debug_macro   0x0000000000000000       0xaa ./full_demo/Common_Demo_Tasks/TaskNotify.o
  .debug_macro   0x0000000000000000       0x91 ./full_demo/Common_Demo_Tasks/TaskNotify.o
- .debug_line    0x0000000000000000      0xf79 ./full_demo/Common_Demo_Tasks/TaskNotify.o
- .debug_str     0x0000000000000000     0x98f5 ./full_demo/Common_Demo_Tasks/TaskNotify.o
+ .debug_line    0x0000000000000000      0xf74 ./full_demo/Common_Demo_Tasks/TaskNotify.o
+ .debug_str     0x0000000000000000     0x98f3 ./full_demo/Common_Demo_Tasks/TaskNotify.o
  .comment       0x0000000000000000       0x29 ./full_demo/Common_Demo_Tasks/TaskNotify.o
  .debug_frame   0x0000000000000000      0x13c ./full_demo/Common_Demo_Tasks/TaskNotify.o
  .riscv.attributes
@@ -403,8 +403,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./full_demo/Common_Demo_Tasks/TimerDemo.o
  .debug_macro   0x0000000000000000       0xaa ./full_demo/Common_Demo_Tasks/TimerDemo.o
  .debug_macro   0x0000000000000000       0x91 ./full_demo/Common_Demo_Tasks/TimerDemo.o
- .debug_line    0x0000000000000000     0x1985 ./full_demo/Common_Demo_Tasks/TimerDemo.o
- .debug_str     0x0000000000000000     0xafab ./full_demo/Common_Demo_Tasks/TimerDemo.o
+ .debug_line    0x0000000000000000     0x1980 ./full_demo/Common_Demo_Tasks/TimerDemo.o
+ .debug_str     0x0000000000000000     0xafa9 ./full_demo/Common_Demo_Tasks/TimerDemo.o
  .comment       0x0000000000000000       0x29 ./full_demo/Common_Demo_Tasks/TimerDemo.o
  .debug_frame   0x0000000000000000      0x264 ./full_demo/Common_Demo_Tasks/TimerDemo.o
  .riscv.attributes
@@ -479,8 +479,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./full_demo/Common_Demo_Tasks/blocktim.o
  .debug_macro   0x0000000000000000       0xaa ./full_demo/Common_Demo_Tasks/blocktim.o
  .debug_macro   0x0000000000000000       0x80 ./full_demo/Common_Demo_Tasks/blocktim.o
- .debug_line    0x0000000000000000      0xbde ./full_demo/Common_Demo_Tasks/blocktim.o
- .debug_str     0x0000000000000000     0x7de8 ./full_demo/Common_Demo_Tasks/blocktim.o
+ .debug_line    0x0000000000000000      0xbd9 ./full_demo/Common_Demo_Tasks/blocktim.o
+ .debug_str     0x0000000000000000     0x7de6 ./full_demo/Common_Demo_Tasks/blocktim.o
  .comment       0x0000000000000000       0x29 ./full_demo/Common_Demo_Tasks/blocktim.o
  .debug_frame   0x0000000000000000       0xbc ./full_demo/Common_Demo_Tasks/blocktim.o
  .riscv.attributes
@@ -595,8 +595,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xaa ./full_demo/Common_Demo_Tasks/dynamic.o
  .debug_macro   0x0000000000000000       0x80 ./full_demo/Common_Demo_Tasks/dynamic.o
  .debug_macro   0x0000000000000000       0x7e ./full_demo/Common_Demo_Tasks/dynamic.o
- .debug_line    0x0000000000000000      0x9f1 ./full_demo/Common_Demo_Tasks/dynamic.o
- .debug_str     0x0000000000000000     0xb56a ./full_demo/Common_Demo_Tasks/dynamic.o
+ .debug_line    0x0000000000000000      0x9ec ./full_demo/Common_Demo_Tasks/dynamic.o
+ .debug_str     0x0000000000000000     0xb568 ./full_demo/Common_Demo_Tasks/dynamic.o
  .comment       0x0000000000000000       0x29 ./full_demo/Common_Demo_Tasks/dynamic.o
  .debug_frame   0x0000000000000000       0xe8 ./full_demo/Common_Demo_Tasks/dynamic.o
  .riscv.attributes
@@ -610,7 +610,7 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x14 ./full_demo/RegTest.o
  .debug_aranges
                 0x0000000000000000       0x20 ./full_demo/RegTest.o
- .debug_str     0x0000000000000000       0x9a ./full_demo/RegTest.o
+ .debug_str     0x0000000000000000       0x99 ./full_demo/RegTest.o
  .riscv.attributes
                 0x0000000000000000       0x29 ./full_demo/RegTest.o
  .group         0x0000000000000000        0xc ./full_demo/main_full.o
@@ -737,8 +737,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x91 ./full_demo/main_full.o
  .debug_macro   0x0000000000000000       0x86 ./full_demo/main_full.o
  .debug_macro   0x0000000000000000       0x7e ./full_demo/main_full.o
- .debug_line    0x0000000000000000      0x8cf ./full_demo/main_full.o
- .debug_str     0x0000000000000000     0xdcf1 ./full_demo/main_full.o
+ .debug_line    0x0000000000000000      0x8cb ./full_demo/main_full.o
+ .debug_str     0x0000000000000000     0xdcf0 ./full_demo/main_full.o
  .comment       0x0000000000000000       0x29 ./full_demo/main_full.o
  .debug_frame   0x0000000000000000       0xc0 ./full_demo/main_full.o
  .riscv.attributes
@@ -804,8 +804,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a ./freedom-metal/src/drivers/fixed-factor-clock.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/drivers/fixed-factor-clock.o
  .debug_macro   0x0000000000000000      0x476 ./freedom-metal/src/drivers/fixed-factor-clock.o
- .debug_line    0x0000000000000000       0xf3 ./freedom-metal/src/drivers/fixed-factor-clock.o
- .debug_str     0x0000000000000000     0x3cbf ./freedom-metal/src/drivers/fixed-factor-clock.o
+ .debug_line    0x0000000000000000       0xf2 ./freedom-metal/src/drivers/fixed-factor-clock.o
+ .debug_str     0x0000000000000000     0x3cbe ./freedom-metal/src/drivers/fixed-factor-clock.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/fixed-factor-clock.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/fixed-factor-clock.o
@@ -1031,8 +1031,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a ./freedom-metal/src/drivers/sifive_clic0.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/drivers/sifive_clic0.o
  .debug_macro   0x0000000000000000      0x476 ./freedom-metal/src/drivers/sifive_clic0.o
- .debug_line    0x0000000000000000       0xed ./freedom-metal/src/drivers/sifive_clic0.o
- .debug_str     0x0000000000000000     0x3cb9 ./freedom-metal/src/drivers/sifive_clic0.o
+ .debug_line    0x0000000000000000       0xec ./freedom-metal/src/drivers/sifive_clic0.o
+ .debug_str     0x0000000000000000     0x3cb8 ./freedom-metal/src/drivers/sifive_clic0.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_clic0.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/sifive_clic0.o
@@ -1320,8 +1320,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
  .debug_macro   0x0000000000000000       0x6a ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
  .debug_macro   0x0000000000000000      0x1df ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
- .debug_line    0x0000000000000000      0x493 ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
- .debug_str     0x0000000000000000     0x4c5b ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
+ .debug_line    0x0000000000000000      0x490 ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
+ .debug_str     0x0000000000000000     0x4c5a ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/sifive_fu540-c000_l2.o
@@ -1337,8 +1337,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
  .debug_macro   0x0000000000000000      0x476 ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
- .debug_line    0x0000000000000000      0x103 ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
- .debug_str     0x0000000000000000     0x3ccf ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
+ .debug_line    0x0000000000000000      0x102 ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
+ .debug_str     0x0000000000000000     0x3cce ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/sifive_global-external-interrupts0.o
@@ -1354,8 +1354,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a ./freedom-metal/src/drivers/sifive_gpio-buttons.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/drivers/sifive_gpio-buttons.o
  .debug_macro   0x0000000000000000      0x476 ./freedom-metal/src/drivers/sifive_gpio-buttons.o
- .debug_line    0x0000000000000000       0xf4 ./freedom-metal/src/drivers/sifive_gpio-buttons.o
- .debug_str     0x0000000000000000     0x3cc0 ./freedom-metal/src/drivers/sifive_gpio-buttons.o
+ .debug_line    0x0000000000000000       0xf3 ./freedom-metal/src/drivers/sifive_gpio-buttons.o
+ .debug_str     0x0000000000000000     0x3cbf ./freedom-metal/src/drivers/sifive_gpio-buttons.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_gpio-buttons.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/sifive_gpio-buttons.o
@@ -1446,8 +1446,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a ./freedom-metal/src/drivers/sifive_gpio-switches.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/drivers/sifive_gpio-switches.o
  .debug_macro   0x0000000000000000      0x476 ./freedom-metal/src/drivers/sifive_gpio-switches.o
- .debug_line    0x0000000000000000       0xf5 ./freedom-metal/src/drivers/sifive_gpio-switches.o
- .debug_str     0x0000000000000000     0x3cc1 ./freedom-metal/src/drivers/sifive_gpio-switches.o
+ .debug_line    0x0000000000000000       0xf4 ./freedom-metal/src/drivers/sifive_gpio-switches.o
+ .debug_str     0x0000000000000000     0x3cc0 ./freedom-metal/src/drivers/sifive_gpio-switches.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_gpio-switches.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/sifive_gpio-switches.o
@@ -1575,8 +1575,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
- .debug_line    0x0000000000000000      0xa3e ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
- .debug_str     0x0000000000000000     0x727e ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
+ .debug_line    0x0000000000000000      0xa3a ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
+ .debug_str     0x0000000000000000     0x727d ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
  .debug_frame   0x0000000000000000      0x148 ./freedom-metal/src/drivers/sifive_local-external-interrupts0.o
  .riscv.attributes
@@ -1712,8 +1712,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./freedom-metal/src/drivers/sifive_spi0.o
  .debug_macro   0x0000000000000000       0x3d ./freedom-metal/src/drivers/sifive_spi0.o
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/src/drivers/sifive_spi0.o
- .debug_line    0x0000000000000000      0xdfc ./freedom-metal/src/drivers/sifive_spi0.o
- .debug_str     0x0000000000000000     0xb1c9 ./freedom-metal/src/drivers/sifive_spi0.o
+ .debug_line    0x0000000000000000      0xdf8 ./freedom-metal/src/drivers/sifive_spi0.o
+ .debug_str     0x0000000000000000     0xb1c8 ./freedom-metal/src/drivers/sifive_spi0.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_spi0.o
  .debug_frame   0x0000000000000000      0x1d8 ./freedom-metal/src/drivers/sifive_spi0.o
  .riscv.attributes
@@ -1730,8 +1730,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a ./freedom-metal/src/drivers/sifive_test0.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/drivers/sifive_test0.o
  .debug_macro   0x0000000000000000      0x476 ./freedom-metal/src/drivers/sifive_test0.o
- .debug_line    0x0000000000000000       0xed ./freedom-metal/src/drivers/sifive_test0.o
- .debug_str     0x0000000000000000     0x3cb9 ./freedom-metal/src/drivers/sifive_test0.o
+ .debug_line    0x0000000000000000       0xec ./freedom-metal/src/drivers/sifive_test0.o
+ .debug_str     0x0000000000000000     0x3cb8 ./freedom-metal/src/drivers/sifive_test0.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/drivers/sifive_test0.o
  .riscv.attributes
                 0x0000000000000000       0x2b ./freedom-metal/src/drivers/sifive_test0.o
@@ -1847,8 +1847,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/button.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/src/button.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/button.o
- .debug_line    0x0000000000000000      0x72a ./freedom-metal/src/button.o
- .debug_str     0x0000000000000000     0x708e ./freedom-metal/src/button.o
+ .debug_line    0x0000000000000000      0x726 ./freedom-metal/src/button.o
+ .debug_str     0x0000000000000000     0x708d ./freedom-metal/src/button.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/button.o
  .debug_frame   0x0000000000000000       0x84 ./freedom-metal/src/button.o
  .riscv.attributes
@@ -1870,8 +1870,8 @@ Discarded input sections
  .debug_ranges  0x0000000000000000       0x20 ./freedom-metal/src/cache.o
  .debug_macro   0x0000000000000000       0x1b ./freedom-metal/src/cache.o
  .debug_macro   0x0000000000000000      0x75a ./freedom-metal/src/cache.o
- .debug_line    0x0000000000000000      0x163 ./freedom-metal/src/cache.o
- .debug_str     0x0000000000000000     0x25b7 ./freedom-metal/src/cache.o
+ .debug_line    0x0000000000000000      0x162 ./freedom-metal/src/cache.o
+ .debug_str     0x0000000000000000     0x25b6 ./freedom-metal/src/cache.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/cache.o
  .debug_frame   0x0000000000000000       0x88 ./freedom-metal/src/cache.o
  .riscv.attributes
@@ -2203,8 +2203,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x174 ./freedom-metal/src/lock.o
  .debug_macro   0x0000000000000000       0x22 ./freedom-metal/src/lock.o
  .debug_macro   0x0000000000000000       0x10 ./freedom-metal/src/lock.o
- .debug_line    0x0000000000000000      0x43e ./freedom-metal/src/lock.o
- .debug_str     0x0000000000000000     0x39a9 ./freedom-metal/src/lock.o
+ .debug_line    0x0000000000000000      0x43d ./freedom-metal/src/lock.o
+ .debug_str     0x0000000000000000     0x39a8 ./freedom-metal/src/lock.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/lock.o
  .debug_frame   0x0000000000000000       0x80 ./freedom-metal/src/lock.o
  .riscv.attributes
@@ -2274,8 +2274,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/memory.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/src/memory.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/memory.o
- .debug_line    0x0000000000000000      0x7a8 ./freedom-metal/src/memory.o
- .debug_str     0x0000000000000000     0x708c ./freedom-metal/src/memory.o
+ .debug_line    0x0000000000000000      0x7a4 ./freedom-metal/src/memory.o
+ .debug_str     0x0000000000000000     0x708b ./freedom-metal/src/memory.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/memory.o
  .debug_frame   0x0000000000000000       0xc8 ./freedom-metal/src/memory.o
  .riscv.attributes
@@ -2377,8 +2377,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/pmp.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/src/pmp.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/pmp.o
- .debug_line    0x0000000000000000     0x1037 ./freedom-metal/src/pmp.o
- .debug_str     0x0000000000000000     0x72f5 ./freedom-metal/src/pmp.o
+ .debug_line    0x0000000000000000     0x1033 ./freedom-metal/src/pmp.o
+ .debug_str     0x0000000000000000     0x72f4 ./freedom-metal/src/pmp.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/pmp.o
  .debug_frame   0x0000000000000000      0x304 ./freedom-metal/src/pmp.o
  .riscv.attributes
@@ -2410,8 +2410,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./freedom-metal/src/privilege.o
  .debug_macro   0x0000000000000000       0x6a ./freedom-metal/src/privilege.o
  .debug_macro   0x0000000000000000      0x1df ./freedom-metal/src/privilege.o
- .debug_line    0x0000000000000000      0x3f8 ./freedom-metal/src/privilege.o
- .debug_str     0x0000000000000000     0x3928 ./freedom-metal/src/privilege.o
+ .debug_line    0x0000000000000000      0x3f7 ./freedom-metal/src/privilege.o
+ .debug_str     0x0000000000000000     0x3927 ./freedom-metal/src/privilege.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/privilege.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/src/privilege.o
  .riscv.attributes
@@ -2532,8 +2532,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/spi.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/src/spi.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/spi.o
- .debug_line    0x0000000000000000      0x793 ./freedom-metal/src/spi.o
- .debug_str     0x0000000000000000     0x7060 ./freedom-metal/src/spi.o
+ .debug_line    0x0000000000000000      0x78f ./freedom-metal/src/spi.o
+ .debug_str     0x0000000000000000     0x705f ./freedom-metal/src/spi.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/spi.o
  .debug_frame   0x0000000000000000       0xd4 ./freedom-metal/src/spi.o
  .riscv.attributes
@@ -2599,8 +2599,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/switch.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/src/switch.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/switch.o
- .debug_line    0x0000000000000000      0x72a ./freedom-metal/src/switch.o
- .debug_str     0x0000000000000000     0x708c ./freedom-metal/src/switch.o
+ .debug_line    0x0000000000000000      0x726 ./freedom-metal/src/switch.o
+ .debug_str     0x0000000000000000     0x708b ./freedom-metal/src/switch.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/switch.o
  .debug_frame   0x0000000000000000       0x84 ./freedom-metal/src/switch.o
  .riscv.attributes
@@ -2720,8 +2720,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./freedom-metal/src/timer.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/src/timer.o
  .debug_macro   0x0000000000000000       0x89 ./freedom-metal/src/timer.o
- .debug_line    0x0000000000000000      0x968 ./freedom-metal/src/timer.o
- .debug_str     0x0000000000000000     0xae75 ./freedom-metal/src/timer.o
+ .debug_line    0x0000000000000000      0x964 ./freedom-metal/src/timer.o
+ .debug_str     0x0000000000000000     0xae74 ./freedom-metal/src/timer.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/src/timer.o
  .debug_frame   0x0000000000000000       0xb0 ./freedom-metal/src/timer.o
  .riscv.attributes
@@ -2734,7 +2734,7 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x14 ./freedom-metal/src/trap.o
  .debug_aranges
                 0x0000000000000000       0x20 ./freedom-metal/src/trap.o
- .debug_str     0x0000000000000000       0x9f ./freedom-metal/src/trap.o
+ .debug_str     0x0000000000000000       0x9e ./freedom-metal/src/trap.o
  .riscv.attributes
                 0x0000000000000000       0x29 ./freedom-metal/src/trap.o
  .group         0x0000000000000000        0xc ./freedom-metal/src/tty.o
@@ -2885,7 +2885,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./freedom-metal/gloss/nanosleep.o
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/nanosleep.o
  .debug_line    0x0000000000000000      0x48a ./freedom-metal/gloss/nanosleep.o
- .debug_str     0x0000000000000000     0x7008 ./freedom-metal/gloss/nanosleep.o
+ .debug_str     0x0000000000000000     0x7007 ./freedom-metal/gloss/nanosleep.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/nanosleep.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/nanosleep.o
  .riscv.attributes
@@ -2984,7 +2984,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_access.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_access.o
  .debug_line    0x0000000000000000      0x3ac ./freedom-metal/gloss/sys_access.o
- .debug_str     0x0000000000000000     0x4bdf ./freedom-metal/gloss/sys_access.o
+ .debug_str     0x0000000000000000     0x4bde ./freedom-metal/gloss/sys_access.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_access.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_access.o
  .riscv.attributes
@@ -3034,7 +3034,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_chdir.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_chdir.o
  .debug_line    0x0000000000000000      0x3ab ./freedom-metal/gloss/sys_chdir.o
- .debug_str     0x0000000000000000     0x4bd8 ./freedom-metal/gloss/sys_chdir.o
+ .debug_str     0x0000000000000000     0x4bd7 ./freedom-metal/gloss/sys_chdir.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_chdir.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_chdir.o
  .riscv.attributes
@@ -3106,7 +3106,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./freedom-metal/gloss/sys_chmod.o
  .debug_macro   0x0000000000000000       0x3d ./freedom-metal/gloss/sys_chmod.o
  .debug_line    0x0000000000000000      0x454 ./freedom-metal/gloss/sys_chmod.o
- .debug_str     0x0000000000000000     0x6cf2 ./freedom-metal/gloss/sys_chmod.o
+ .debug_str     0x0000000000000000     0x6cf1 ./freedom-metal/gloss/sys_chmod.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_chmod.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_chmod.o
  .riscv.attributes
@@ -3178,7 +3178,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_chown.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_chown.o
  .debug_line    0x0000000000000000      0x454 ./freedom-metal/gloss/sys_chown.o
- .debug_str     0x0000000000000000     0x6cfa ./freedom-metal/gloss/sys_chown.o
+ .debug_str     0x0000000000000000     0x6cf9 ./freedom-metal/gloss/sys_chown.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_chown.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_chown.o
  .riscv.attributes
@@ -3228,7 +3228,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_close.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_close.o
  .debug_line    0x0000000000000000      0x3ab ./freedom-metal/gloss/sys_close.o
- .debug_str     0x0000000000000000     0x4bd1 ./freedom-metal/gloss/sys_close.o
+ .debug_str     0x0000000000000000     0x4bd0 ./freedom-metal/gloss/sys_close.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_close.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_close.o
  .riscv.attributes
@@ -3278,7 +3278,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_execve.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_execve.o
  .debug_line    0x0000000000000000      0x3ac ./freedom-metal/gloss/sys_execve.o
- .debug_str     0x0000000000000000     0x4bdf ./freedom-metal/gloss/sys_execve.o
+ .debug_str     0x0000000000000000     0x4bde ./freedom-metal/gloss/sys_execve.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_execve.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_execve.o
  .riscv.attributes
@@ -3334,7 +3334,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_faccessat.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_faccessat.o
  .debug_line    0x0000000000000000      0x3af ./freedom-metal/gloss/sys_faccessat.o
- .debug_str     0x0000000000000000     0x4bf1 ./freedom-metal/gloss/sys_faccessat.o
+ .debug_str     0x0000000000000000     0x4bf0 ./freedom-metal/gloss/sys_faccessat.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_faccessat.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_faccessat.o
  .riscv.attributes
@@ -3384,7 +3384,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_fork.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_fork.o
  .debug_line    0x0000000000000000      0x3aa ./freedom-metal/gloss/sys_fork.o
- .debug_str     0x0000000000000000     0x4bd1 ./freedom-metal/gloss/sys_fork.o
+ .debug_str     0x0000000000000000     0x4bd0 ./freedom-metal/gloss/sys_fork.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_fork.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_fork.o
  .riscv.attributes
@@ -3468,7 +3468,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_fstat.o
  .debug_macro   0x0000000000000000      0x122 ./freedom-metal/gloss/sys_fstat.o
  .debug_line    0x0000000000000000      0x47f ./freedom-metal/gloss/sys_fstat.o
- .debug_str     0x0000000000000000     0x7371 ./freedom-metal/gloss/sys_fstat.o
+ .debug_str     0x0000000000000000     0x7370 ./freedom-metal/gloss/sys_fstat.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_fstat.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_fstat.o
  .riscv.attributes
@@ -3553,7 +3553,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_fstatat.o
  .debug_macro   0x0000000000000000      0x122 ./freedom-metal/gloss/sys_fstatat.o
  .debug_line    0x0000000000000000      0x481 ./freedom-metal/gloss/sys_fstatat.o
- .debug_str     0x0000000000000000     0x7381 ./freedom-metal/gloss/sys_fstatat.o
+ .debug_str     0x0000000000000000     0x7380 ./freedom-metal/gloss/sys_fstatat.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_fstatat.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_fstatat.o
  .riscv.attributes
@@ -3605,7 +3605,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_ftime.o
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/gloss/sys_ftime.o
  .debug_line    0x0000000000000000      0x3b6 ./freedom-metal/gloss/sys_ftime.o
- .debug_str     0x0000000000000000     0x4c40 ./freedom-metal/gloss/sys_ftime.o
+ .debug_str     0x0000000000000000     0x4c3f ./freedom-metal/gloss/sys_ftime.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_ftime.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_ftime.o
  .riscv.attributes
@@ -3655,7 +3655,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_getcwd.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_getcwd.o
  .debug_line    0x0000000000000000      0x3ac ./freedom-metal/gloss/sys_getcwd.o
- .debug_str     0x0000000000000000     0x4be1 ./freedom-metal/gloss/sys_getcwd.o
+ .debug_str     0x0000000000000000     0x4be0 ./freedom-metal/gloss/sys_getcwd.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_getcwd.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_getcwd.o
  .riscv.attributes
@@ -3705,7 +3705,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_getpid.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_getpid.o
  .debug_line    0x0000000000000000      0x39c ./freedom-metal/gloss/sys_getpid.o
- .debug_str     0x0000000000000000     0x4bd5 ./freedom-metal/gloss/sys_getpid.o
+ .debug_str     0x0000000000000000     0x4bd4 ./freedom-metal/gloss/sys_getpid.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_getpid.o
  .debug_frame   0x0000000000000000       0x34 ./freedom-metal/gloss/sys_getpid.o
  .riscv.attributes
@@ -3789,8 +3789,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./freedom-metal/gloss/sys_gettimeofday.o
  .debug_macro   0x0000000000000000       0x10 ./freedom-metal/gloss/sys_gettimeofday.o
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_gettimeofday.o
- .debug_line    0x0000000000000000      0x575 ./freedom-metal/gloss/sys_gettimeofday.o
- .debug_str     0x0000000000000000     0x703b ./freedom-metal/gloss/sys_gettimeofday.o
+ .debug_line    0x0000000000000000      0x574 ./freedom-metal/gloss/sys_gettimeofday.o
+ .debug_str     0x0000000000000000     0x703a ./freedom-metal/gloss/sys_gettimeofday.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_gettimeofday.o
  .debug_frame   0x0000000000000000       0x40 ./freedom-metal/gloss/sys_gettimeofday.o
  .riscv.attributes
@@ -3858,7 +3858,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xbe ./freedom-metal/gloss/sys_isatty.o
  .debug_macro   0x0000000000000000      0x51a ./freedom-metal/gloss/sys_isatty.o
  .debug_line    0x0000000000000000      0x432 ./freedom-metal/gloss/sys_isatty.o
- .debug_str     0x0000000000000000     0x606a ./freedom-metal/gloss/sys_isatty.o
+ .debug_str     0x0000000000000000     0x6069 ./freedom-metal/gloss/sys_isatty.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_isatty.o
  .debug_frame   0x0000000000000000       0x34 ./freedom-metal/gloss/sys_isatty.o
  .riscv.attributes
@@ -3908,7 +3908,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_kill.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_kill.o
  .debug_line    0x0000000000000000      0x3aa ./freedom-metal/gloss/sys_kill.o
- .debug_str     0x0000000000000000     0x4bd1 ./freedom-metal/gloss/sys_kill.o
+ .debug_str     0x0000000000000000     0x4bd0 ./freedom-metal/gloss/sys_kill.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_kill.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_kill.o
  .riscv.attributes
@@ -3958,7 +3958,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_link.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_link.o
  .debug_line    0x0000000000000000      0x3aa ./freedom-metal/gloss/sys_link.o
- .debug_str     0x0000000000000000     0x4be3 ./freedom-metal/gloss/sys_link.o
+ .debug_str     0x0000000000000000     0x4be2 ./freedom-metal/gloss/sys_link.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_link.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_link.o
  .riscv.attributes
@@ -4030,7 +4030,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_lseek.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_lseek.o
  .debug_line    0x0000000000000000      0x454 ./freedom-metal/gloss/sys_lseek.o
- .debug_str     0x0000000000000000     0x6ce0 ./freedom-metal/gloss/sys_lseek.o
+ .debug_str     0x0000000000000000     0x6cdf ./freedom-metal/gloss/sys_lseek.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_lseek.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_lseek.o
  .riscv.attributes
@@ -4114,7 +4114,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_lstat.o
  .debug_macro   0x0000000000000000      0x122 ./freedom-metal/gloss/sys_lstat.o
  .debug_line    0x0000000000000000      0x47f ./freedom-metal/gloss/sys_lstat.o
- .debug_str     0x0000000000000000     0x7371 ./freedom-metal/gloss/sys_lstat.o
+ .debug_str     0x0000000000000000     0x7370 ./freedom-metal/gloss/sys_lstat.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_lstat.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_lstat.o
  .riscv.attributes
@@ -4164,7 +4164,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_open.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_open.o
  .debug_line    0x0000000000000000      0x3aa ./freedom-metal/gloss/sys_open.o
- .debug_str     0x0000000000000000     0x4be1 ./freedom-metal/gloss/sys_open.o
+ .debug_str     0x0000000000000000     0x4be0 ./freedom-metal/gloss/sys_open.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_open.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_open.o
  .riscv.attributes
@@ -4214,7 +4214,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_openat.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_openat.o
  .debug_line    0x0000000000000000      0x3ac ./freedom-metal/gloss/sys_openat.o
- .debug_str     0x0000000000000000     0x4beb ./freedom-metal/gloss/sys_openat.o
+ .debug_str     0x0000000000000000     0x4bea ./freedom-metal/gloss/sys_openat.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_openat.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_openat.o
  .riscv.attributes
@@ -4286,7 +4286,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_read.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_read.o
  .debug_line    0x0000000000000000      0x453 ./freedom-metal/gloss/sys_read.o
- .debug_str     0x0000000000000000     0x6cd9 ./freedom-metal/gloss/sys_read.o
+ .debug_str     0x0000000000000000     0x6cd8 ./freedom-metal/gloss/sys_read.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_read.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_read.o
  .riscv.attributes
@@ -4350,7 +4350,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./freedom-metal/gloss/sys_sbrk.o
  .debug_macro   0x0000000000000000       0x3d ./freedom-metal/gloss/sys_sbrk.o
  .debug_line    0x0000000000000000      0x478 ./freedom-metal/gloss/sys_sbrk.o
- .debug_str     0x0000000000000000     0x50c5 ./freedom-metal/gloss/sys_sbrk.o
+ .debug_str     0x0000000000000000     0x50c4 ./freedom-metal/gloss/sys_sbrk.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_sbrk.o
  .debug_frame   0x0000000000000000       0x58 ./freedom-metal/gloss/sys_sbrk.o
  .riscv.attributes
@@ -4434,7 +4434,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_stat.o
  .debug_macro   0x0000000000000000      0x122 ./freedom-metal/gloss/sys_stat.o
  .debug_line    0x0000000000000000      0x47e ./freedom-metal/gloss/sys_stat.o
- .debug_str     0x0000000000000000     0x736f ./freedom-metal/gloss/sys_stat.o
+ .debug_str     0x0000000000000000     0x736e ./freedom-metal/gloss/sys_stat.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_stat.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_stat.o
  .riscv.attributes
@@ -4519,7 +4519,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./freedom-metal/gloss/sys_sysconf.o
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_sysconf.o
  .debug_line    0x0000000000000000      0x479 ./freedom-metal/gloss/sys_sysconf.o
- .debug_str     0x0000000000000000     0x796e ./freedom-metal/gloss/sys_sysconf.o
+ .debug_str     0x0000000000000000     0x796d ./freedom-metal/gloss/sys_sysconf.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_sysconf.o
  .debug_frame   0x0000000000000000       0x34 ./freedom-metal/gloss/sys_sysconf.o
  .riscv.attributes
@@ -4605,8 +4605,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_times.o
  .debug_macro   0x0000000000000000       0x10 ./freedom-metal/gloss/sys_times.o
  .debug_macro   0x0000000000000000      0x241 ./freedom-metal/gloss/sys_times.o
- .debug_line    0x0000000000000000      0x5eb ./freedom-metal/gloss/sys_times.o
- .debug_str     0x0000000000000000     0x7073 ./freedom-metal/gloss/sys_times.o
+ .debug_line    0x0000000000000000      0x5ea ./freedom-metal/gloss/sys_times.o
+ .debug_str     0x0000000000000000     0x7072 ./freedom-metal/gloss/sys_times.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_times.o
  .debug_frame   0x0000000000000000       0x50 ./freedom-metal/gloss/sys_times.o
  .riscv.attributes
@@ -4656,7 +4656,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_unlink.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_unlink.o
  .debug_line    0x0000000000000000      0x3ac ./freedom-metal/gloss/sys_unlink.o
- .debug_str     0x0000000000000000     0x4bda ./freedom-metal/gloss/sys_unlink.o
+ .debug_str     0x0000000000000000     0x4bd9 ./freedom-metal/gloss/sys_unlink.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_unlink.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_unlink.o
  .riscv.attributes
@@ -4706,7 +4706,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_utime.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_utime.o
  .debug_line    0x0000000000000000      0x3ab ./freedom-metal/gloss/sys_utime.o
- .debug_str     0x0000000000000000     0x4be6 ./freedom-metal/gloss/sys_utime.o
+ .debug_str     0x0000000000000000     0x4be5 ./freedom-metal/gloss/sys_utime.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_utime.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_utime.o
  .riscv.attributes
@@ -4756,7 +4756,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x197 ./freedom-metal/gloss/sys_wait.o
  .debug_macro   0x0000000000000000      0x23b ./freedom-metal/gloss/sys_wait.o
  .debug_line    0x0000000000000000      0x3aa ./freedom-metal/gloss/sys_wait.o
- .debug_str     0x0000000000000000     0x4bd8 ./freedom-metal/gloss/sys_wait.o
+ .debug_str     0x0000000000000000     0x4bd7 ./freedom-metal/gloss/sys_wait.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_wait.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_wait.o
  .riscv.attributes
@@ -4833,8 +4833,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./freedom-metal/gloss/sys_write.o
  .debug_macro   0x0000000000000000       0x35 ./freedom-metal/gloss/sys_write.o
  .debug_macro   0x0000000000000000      0x51a ./freedom-metal/gloss/sys_write.o
- .debug_line    0x0000000000000000      0x550 ./freedom-metal/gloss/sys_write.o
- .debug_str     0x0000000000000000     0x7ce0 ./freedom-metal/gloss/sys_write.o
+ .debug_line    0x0000000000000000      0x54f ./freedom-metal/gloss/sys_write.o
+ .debug_str     0x0000000000000000     0x7cdf ./freedom-metal/gloss/sys_write.o
  .comment       0x0000000000000000       0x29 ./freedom-metal/gloss/sys_write.o
  .debug_frame   0x0000000000000000       0x38 ./freedom-metal/gloss/sys_write.o
  .riscv.attributes
@@ -4884,24 +4884,13 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./blinky_demo/main_blinky.o
  .data          0x0000000000000000        0x0 ./blinky_demo/main_blinky.o
  .bss           0x0000000000000000        0x0 ./blinky_demo/main_blinky.o
- .sbss.s_led_buf
-                0x0000000000000000        0x4 ./blinky_demo/main_blinky.o
- .sbss.s_idf_len
-                0x0000000000000000        0x8 ./blinky_demo/main_blinky.o
- .sdata.esp32_ret
-                0x0000000000000000        0x4 ./blinky_demo/main_blinky.o
  .sdata.count_down
                 0x0000000000000000        0x4 ./blinky_demo/main_blinky.o
- .text.get_IPD  0x0000000000000000       0xf0 ./blinky_demo/main_blinky.o
- .text.receive_1line
-                0x0000000000000000       0xa4 ./blinky_demo/main_blinky.o
- .text.process_message
-                0x0000000000000000      0x190 ./blinky_demo/main_blinky.o
- .text.led_ctrl
-                0x0000000000000000      0x182 ./blinky_demo/main_blinky.o
  .text.test0    0x0000000000000000       0x50 ./blinky_demo/main_blinky.o
  .text.test1    0x0000000000000000       0xca ./blinky_demo/main_blinky.o
- .text.test2    0x0000000000000000      0x2f4 ./blinky_demo/main_blinky.o
+ .text.test2    0x0000000000000000      0x3b8 ./blinky_demo/main_blinky.o
+ .text.test3    0x0000000000000000       0xfa ./blinky_demo/main_blinky.o
+ .text.test4    0x0000000000000000       0xba ./blinky_demo/main_blinky.o
  .debug_macro   0x0000000000000000      0x75a ./blinky_demo/main_blinky.o
  .debug_macro   0x0000000000000000       0x22 ./blinky_demo/main_blinky.o
  .debug_macro   0x0000000000000000       0x34 ./blinky_demo/main_blinky.o
@@ -5155,8 +5144,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xaa ./FreeRTOS_Source/event_groups.o
  .debug_macro   0x0000000000000000       0x91 ./FreeRTOS_Source/event_groups.o
  .debug_macro   0x0000000000000000       0x19 ./FreeRTOS_Source/event_groups.o
- .debug_line    0x0000000000000000      0xcb3 ./FreeRTOS_Source/event_groups.o
- .debug_str     0x0000000000000000     0xb127 ./FreeRTOS_Source/event_groups.o
+ .debug_line    0x0000000000000000      0xcaf ./FreeRTOS_Source/event_groups.o
+ .debug_str     0x0000000000000000     0xb125 ./FreeRTOS_Source/event_groups.o
  .comment       0x0000000000000000       0x29 ./FreeRTOS_Source/event_groups.o
  .debug_frame   0x0000000000000000      0x198 ./FreeRTOS_Source/event_groups.o
  .riscv.attributes
@@ -5440,8 +5429,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./FreeRTOS_Source/stream_buffer.o
  .debug_macro   0x0000000000000000       0xaa ./FreeRTOS_Source/stream_buffer.o
  .debug_macro   0x0000000000000000       0x18 ./FreeRTOS_Source/stream_buffer.o
- .debug_line    0x0000000000000000     0x12ce ./FreeRTOS_Source/stream_buffer.o
- .debug_str     0x0000000000000000     0xb080 ./FreeRTOS_Source/stream_buffer.o
+ .debug_line    0x0000000000000000     0x12ca ./FreeRTOS_Source/stream_buffer.o
+ .debug_str     0x0000000000000000     0xb07e ./FreeRTOS_Source/stream_buffer.o
  .comment       0x0000000000000000       0x29 ./FreeRTOS_Source/stream_buffer.o
  .debug_frame   0x0000000000000000      0x354 ./FreeRTOS_Source/stream_buffer.o
  .riscv.attributes
@@ -5672,6 +5661,50 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./FreeRTOS_Source/timers.o
  .debug_macro   0x0000000000000000       0xaa ./FreeRTOS_Source/timers.o
  .debug_macro   0x0000000000000000       0x80 ./FreeRTOS_Source/timers.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .group         0x0000000000000000        0xc ./at.o
+ .text          0x0000000000000000        0x0 ./at.o
+ .data          0x0000000000000000        0x0 ./at.o
+ .bss           0x0000000000000000        0x0 ./at.o
+ .text.AT_reset
+                0x0000000000000000       0x3c ./at.o
+ .text.AT_echo_off
+                0x0000000000000000       0x3c ./at.o
+ .text.AT_at    0x0000000000000000       0x3c ./at.o
+ .debug_macro   0x0000000000000000      0x75a ./at.o
+ .debug_macro   0x0000000000000000       0x22 ./at.o
+ .debug_macro   0x0000000000000000       0x34 ./at.o
+ .debug_macro   0x0000000000000000       0x19 ./at.o
+ .debug_macro   0x0000000000000000       0x94 ./at.o
+ .debug_macro   0x0000000000000000       0x3b ./at.o
+ .debug_macro   0x0000000000000000       0x34 ./at.o
+ .debug_macro   0x0000000000000000      0x174 ./at.o
+ .debug_macro   0x0000000000000000       0x16 ./at.o
+ .debug_macro   0x0000000000000000       0x43 ./at.o
+ .debug_macro   0x0000000000000000       0x57 ./at.o
+ .debug_macro   0x0000000000000000       0x34 ./at.o
+ .debug_macro   0x0000000000000000       0x10 ./at.o
+ .debug_macro   0x0000000000000000       0x52 ./at.o
+ .debug_macro   0x0000000000000000      0x197 ./at.o
+ .debug_macro   0x0000000000000000      0x339 ./at.o
+ .debug_macro   0x0000000000000000       0x10 ./at.o
+ .debug_macro   0x0000000000000000       0x35 ./at.o
  .group         0x0000000000000000        0xc ./debug_serial.o
  .group         0x0000000000000000        0xc ./debug_serial.o
  .group         0x0000000000000000        0xc ./debug_serial.o
@@ -5935,8 +5968,6 @@ Discarded input sections
                 0x0000000000000000        0x4 ./esp32_AT.o
  .sdata.__metal_spi_table
                 0x0000000000000000        0x4 ./esp32_AT.o
- .text.AT_wifi_conn
-                0x0000000000000000       0xbe ./esp32_AT.o
  .debug_macro   0x0000000000000000      0x75a ./esp32_AT.o
  .debug_macro   0x0000000000000000       0x22 ./esp32_AT.o
  .debug_macro   0x0000000000000000       0x34 ./esp32_AT.o
@@ -6102,11 +6133,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
- .text.atoi     0x0000000000000000        0xc d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
  .text._atoi_r  0x0000000000000000        0xc d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
- .comment       0x0000000000000000       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
- .riscv.attributes
-                0x0000000000000000       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-errno.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-errno.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-errno.o)
@@ -6123,8 +6150,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
- .sdata._impure_ptr
-                0x0000000000000000        0x4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
@@ -6150,23 +6175,13 @@ Discarded input sections
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
- .text.strncpy  0x0000000000000000       0x24 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
- .comment       0x0000000000000000       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
- .riscv.attributes
-                0x0000000000000000       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
- .text._strtol_l.isra.0
-                0x0000000000000000      0x12c d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
  .text._strtol_r
                 0x0000000000000000        0x8 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
  .text.strtol_l
                 0x0000000000000000       0x18 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
- .text.strtol   0x0000000000000000       0x18 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
- .comment       0x0000000000000000       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
- .riscv.attributes
-                0x0000000000000000       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-time.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-time.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-time.o)
@@ -6185,11 +6200,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
- .rodata._ctype_
-                0x0000000000000000      0x101 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
- .comment       0x0000000000000000       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
- .riscv.attributes
-                0x0000000000000000       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
  .text          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-gettimeofdayr.o)
  .data          0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-gettimeofdayr.o)
  .bss           0x0000000000000000        0x0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-gettimeofdayr.o)
@@ -6351,6 +6361,7 @@ LOAD ./FreeRTOS_Source/queue.o
 LOAD ./FreeRTOS_Source/stream_buffer.o
 LOAD ./FreeRTOS_Source/tasks.o
 LOAD ./FreeRTOS_Source/timers.o
+LOAD ./at.o
 LOAD ./debug_serial.o
 LOAD ./drv_esp32.o
 LOAD ./drv_spi1.o
@@ -6384,7 +6395,7 @@ END GROUP
                 0x0000000020010160                _init
                 0x0000000020010162                secondary_main
 
-.text           0x0000000020010200     0x7702
+.text           0x0000000020010200     0x7cbe
  *(.text.unlikely .text.unlikely.*)
  *(.text.startup .text.startup.*)
  *(.text .text.*)
@@ -6836,296 +6847,306 @@ END GROUP
                 0x000000002001313a       0x6e ./blinky_demo/main_blinky.o
                 0x000000002001313a                main_blinky
  .text.prvQueueSendTask
-                0x00000000200131a8       0x86 ./blinky_demo/main_blinky.o
+                0x00000000200131a8      0x184 ./blinky_demo/main_blinky.o
  .text.prvQueueReceiveTask
-                0x000000002001322e       0x3c ./blinky_demo/main_blinky.o
- .text.init_led
-                0x000000002001326a       0xde ./blinky_demo/main_blinky.o
- .text.pvPortMalloc
-                0x0000000020013348      0x1d0 ./FreeRTOS_Source/portable/MemMang/heap_4.o
-                0x0000000020013348                pvPortMalloc
- .text.vPortFree
-                0x0000000020013518       0xcc ./FreeRTOS_Source/portable/MemMang/heap_4.o
-                0x0000000020013518                vPortFree
- .text.prvHeapInit
-                0x00000000200135e4      0x112 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .text.prvInsertBlockIntoFreeList
-                0x00000000200136f6       0xf8 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .text.vPortSetupTimerInterrupt
-                0x00000000200137ee      0x140 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x00000000200137ee                vPortSetupTimerInterrupt
- .text.xPortStartScheduler
-                0x000000002001392e       0x46 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x000000002001392e                xPortStartScheduler
- *fill*         0x0000000020013974       0x8c 
- .text          0x0000000020013a00      0x350 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
-                0x0000000020013a00                freertos_risc_v_trap_handler
-                0x0000000020013c00                xPortStartFirstTask
-                0x0000000020013d00                pxPortInitialiseStack
- .text.vListInitialise
-                0x0000000020013d50       0x4c ./FreeRTOS_Source/list.o
-                0x0000000020013d50                vListInitialise
- .text.vListInitialiseItem
-                0x0000000020013d9c       0x1a ./FreeRTOS_Source/list.o
-                0x0000000020013d9c                vListInitialiseItem
- .text.vListInsertEnd
-                0x0000000020013db6       0x66 ./FreeRTOS_Source/list.o
-                0x0000000020013db6                vListInsertEnd
- .text.vListInsert
-                0x0000000020013e1c       0xa2 ./FreeRTOS_Source/list.o
-                0x0000000020013e1c                vListInsert
- .text.uxListRemove
-                0x0000000020013ebe       0x70 ./FreeRTOS_Source/list.o
-                0x0000000020013ebe                uxListRemove
- .text.xQueueGenericReset
-                0x0000000020013f2e       0xdc ./FreeRTOS_Source/queue.o
-                0x0000000020013f2e                xQueueGenericReset
- .text.xQueueGenericCreate
-                0x000000002001400a       0x8e ./FreeRTOS_Source/queue.o
-                0x000000002001400a                xQueueGenericCreate
- .text.prvInitialiseNewQueue
-                0x0000000020014098       0x60 ./FreeRTOS_Source/queue.o
- .text.prvInitialiseMutex
-                0x00000000200140f8       0x40 ./FreeRTOS_Source/queue.o
- .text.xQueueCreateMutex
-                0x0000000020014138       0x40 ./FreeRTOS_Source/queue.o
-                0x0000000020014138                xQueueCreateMutex
- .text.xQueueGenericSend
-                0x0000000020014178      0x1bc ./FreeRTOS_Source/queue.o
-                0x0000000020014178                xQueueGenericSend
- .text.xQueueGenericSendFromISR
-                0x0000000020014334      0x104 ./FreeRTOS_Source/queue.o
-                0x0000000020014334                xQueueGenericSendFromISR
- .text.xQueueReceive
-                0x0000000020014438      0x190 ./FreeRTOS_Source/queue.o
-                0x0000000020014438                xQueueReceive
- .text.xQueueSemaphoreTake
-                0x00000000200145c8      0x1de ./FreeRTOS_Source/queue.o
-                0x00000000200145c8                xQueueSemaphoreTake
- .text.prvGetDisinheritPriorityAfterTimeout
-                0x00000000200147a6       0x36 ./FreeRTOS_Source/queue.o
- .text.prvCopyDataToQueue
-                0x00000000200147dc      0x12a ./FreeRTOS_Source/queue.o
- .text.prvCopyDataFromQueue
-                0x0000000020014906       0x6a ./FreeRTOS_Source/queue.o
- .text.prvUnlockQueue
-                0x0000000020014970       0xc4 ./FreeRTOS_Source/queue.o
- .text.prvIsQueueEmpty
-                0x0000000020014a34       0x36 ./FreeRTOS_Source/queue.o
- .text.prvIsQueueFull
-                0x0000000020014a6a       0x3e ./FreeRTOS_Source/queue.o
- .text.vQueueAddToRegistry
-                0x0000000020014aa8       0x72 ./FreeRTOS_Source/queue.o
-                0x0000000020014aa8                vQueueAddToRegistry
- .text.vQueueWaitForMessageRestricted
-                0x0000000020014b1a       0x8c ./FreeRTOS_Source/queue.o
-                0x0000000020014b1a                vQueueWaitForMessageRestricted
- .text.xTaskCreate
-                0x0000000020014ba6       0xac ./FreeRTOS_Source/tasks.o
-                0x0000000020014ba6                xTaskCreate
- .text.prvInitialiseNewTask
-                0x0000000020014c52      0x18a ./FreeRTOS_Source/tasks.o
- .text.prvAddNewTaskToReadyList
-                0x0000000020014ddc      0x100 ./FreeRTOS_Source/tasks.o
- .text.vTaskDelay
-                0x0000000020014edc       0x4a ./FreeRTOS_Source/tasks.o
-                0x0000000020014edc                vTaskDelay
- .text.vTaskStartScheduler
-                0x0000000020014f26       0x8a ./FreeRTOS_Source/tasks.o
-                0x0000000020014f26                vTaskStartScheduler
- .text.vTaskSuspendAll
-                0x0000000020014fb0       0x22 ./FreeRTOS_Source/tasks.o
-                0x0000000020014fb0                vTaskSuspendAll
- .text.xTaskResumeAll
-                0x0000000020014fd2      0x1cc ./FreeRTOS_Source/tasks.o
-                0x0000000020014fd2                xTaskResumeAll
- .text.xTaskGetTickCount
-                0x000000002001519e       0x1e ./FreeRTOS_Source/tasks.o
-                0x000000002001519e                xTaskGetTickCount
- .text.xTaskIncrementTick
-                0x00000000200151bc      0x1d2 ./FreeRTOS_Source/tasks.o
-                0x00000000200151bc                xTaskIncrementTick
- .text.vTaskSwitchContext
-                0x000000002001538e      0x132 ./FreeRTOS_Source/tasks.o
-                0x000000002001538e                vTaskSwitchContext
- .text.vTaskPlaceOnEventList
-                0x00000000200154c0       0x42 ./FreeRTOS_Source/tasks.o
-                0x00000000200154c0                vTaskPlaceOnEventList
- .text.vTaskPlaceOnEventListRestricted
-                0x0000000020015502       0x54 ./FreeRTOS_Source/tasks.o
-                0x0000000020015502                vTaskPlaceOnEventListRestricted
- .text.xTaskRemoveFromEventList
-                0x0000000020015556       0xd6 ./FreeRTOS_Source/tasks.o
-                0x0000000020015556                xTaskRemoveFromEventList
- .text.vTaskInternalSetTimeOutState
-                0x000000002001562c       0x2e ./FreeRTOS_Source/tasks.o
-                0x000000002001562c                vTaskInternalSetTimeOutState
- .text.xTaskCheckForTimeOut
-                0x000000002001565a       0xec ./FreeRTOS_Source/tasks.o
-                0x000000002001565a                xTaskCheckForTimeOut
- .text.vTaskMissedYield
-                0x0000000020015746       0x18 ./FreeRTOS_Source/tasks.o
-                0x0000000020015746                vTaskMissedYield
- .text.prvIdleTask
-                0x000000002001575e       0x10 ./FreeRTOS_Source/tasks.o
- .text.prvInitialiseTaskLists
-                0x000000002001576e       0xa4 ./FreeRTOS_Source/tasks.o
- .text.prvCheckTasksWaitingTermination
-                0x0000000020015812       0x6c ./FreeRTOS_Source/tasks.o
- .text.prvDeleteTCB
-                0x000000002001587e       0x2a ./FreeRTOS_Source/tasks.o
- .text.prvResetNextTaskUnblockTime
-                0x00000000200158a8       0x44 ./FreeRTOS_Source/tasks.o
- .text.xTaskGetSchedulerState
-                0x00000000200158ec       0x3a ./FreeRTOS_Source/tasks.o
-                0x00000000200158ec                xTaskGetSchedulerState
- .text.xTaskPriorityInherit
-                0x0000000020015926      0x13c ./FreeRTOS_Source/tasks.o
-                0x0000000020015926                xTaskPriorityInherit
- .text.xTaskPriorityDisinherit
-                0x0000000020015a62      0x12a ./FreeRTOS_Source/tasks.o
-                0x0000000020015a62                xTaskPriorityDisinherit
- .text.vTaskPriorityDisinheritAfterTimeout
-                0x0000000020015b8c      0x150 ./FreeRTOS_Source/tasks.o
-                0x0000000020015b8c                vTaskPriorityDisinheritAfterTimeout
- .text.vTaskEnterCritical
-                0x0000000020015cdc       0x32 ./FreeRTOS_Source/tasks.o
-                0x0000000020015cdc                vTaskEnterCritical
- .text.vTaskExitCritical
-                0x0000000020015d0e       0x42 ./FreeRTOS_Source/tasks.o
-                0x0000000020015d0e                vTaskExitCritical
- .text.pvTaskIncrementMutexHeldCount
-                0x0000000020015d50       0x2e ./FreeRTOS_Source/tasks.o
-                0x0000000020015d50                pvTaskIncrementMutexHeldCount
- .text.prvAddCurrentTaskToDelayedList
-                0x0000000020015d7e      0x110 ./FreeRTOS_Source/tasks.o
- .text.xTimerCreateTimerTask
-                0x0000000020015e8e       0x58 ./FreeRTOS_Source/timers.o
-                0x0000000020015e8e                xTimerCreateTimerTask
- .text.xTimerGenericCommand
-                0x0000000020015ee6       0xcc ./FreeRTOS_Source/timers.o
-                0x0000000020015ee6                xTimerGenericCommand
- .text.prvProcessExpiredTimer
-                0x0000000020015fb2       0xa6 ./FreeRTOS_Source/timers.o
- .text.prvTimerTask
-                0x0000000020016058       0x28 ./FreeRTOS_Source/timers.o
- .text.prvProcessTimerOrBlockTask
-                0x0000000020016080       0xa2 ./FreeRTOS_Source/timers.o
- .text.prvGetNextExpireTime
-                0x0000000020016122       0x4c ./FreeRTOS_Source/timers.o
- .text.prvSampleTimeNow
-                0x000000002001616e       0x52 ./FreeRTOS_Source/timers.o
- .text.prvInsertTimerInActiveList
-                0x00000000200161c0       0xb4 ./FreeRTOS_Source/timers.o
- .text.prvProcessReceivedCommands
-                0x0000000020016274      0x1c8 ./FreeRTOS_Source/timers.o
- .text.prvSwitchTimerLists
-                0x000000002001643c       0xf4 ./FreeRTOS_Source/timers.o
- .text.prvCheckForValidListAndQueue
-                0x0000000020016530       0x90 ./FreeRTOS_Source/timers.o
- .text.debug_putc
-                0x00000000200165c0       0x28 ./debug_serial.o
-                0x00000000200165c0                debug_putc
- .text.debug_puts
-                0x00000000200165e8       0x4c ./debug_serial.o
-                0x00000000200165e8                debug_puts
- .text.drv_esp32_send
-                0x0000000020016634       0xc6 ./drv_esp32.o
-                0x0000000020016634                drv_esp32_send
- .text.drv_esp32_recv
-                0x00000000200166fa       0xec ./drv_esp32.o
-                0x00000000200166fa                drv_esp32_recv
- .text.driver_spi1_transfer
-                0x00000000200167e6      0x11a ./drv_spi1.o
-                0x00000000200167e6                driver_spi1_transfer
+                0x000000002001332c       0x3c ./blinky_demo/main_blinky.o
+ .text.get_IPD  0x0000000020013368       0xdc ./blinky_demo/main_blinky.o
  .text.receive_1line
-                0x0000000020016900       0xa4 ./esp32_AT.o
- .text.prvSpiRxTask
-                0x00000000200169a4      0x162 ./esp32_AT.o
- .text.prvESP32Task
-                0x0000000020016b06      0x13c ./esp32_AT.o
- .text.queue_send_cmd
-                0x0000000020016c42       0x70 ./esp32_AT.o
- .text.queue_read_msg
-                0x0000000020016cb2       0x7c ./esp32_AT.o
- .text.queue_send_msg_len
-                0x0000000020016d2e       0x60 ./esp32_AT.o
- .text.esp32_create_tasks
-                0x0000000020016d8e       0xfc ./esp32_AT.o
-                0x0000000020016d8e                esp32_create_tasks
- .text.esp32_send_cmd
-                0x0000000020016e8a       0x46 ./esp32_AT.o
-                0x0000000020016e8a                esp32_send_cmd
- .text.esp32_recv
-                0x0000000020016ed0       0x7e ./esp32_AT.o
-                0x0000000020016ed0                esp32_recv
- .text.esp32_process_message
-                0x0000000020016f4e      0x11c ./esp32_AT.o
-                0x0000000020016f4e                esp32_process_message
- .text.AT_cmd   0x000000002001706a       0x8a ./esp32_AT.o
-                0x000000002001706a                AT_cmd
- .text.AT_reset
-                0x00000000200170f4       0x38 ./esp32_AT.o
-                0x00000000200170f4                AT_reset
- .text.AT_echo_off
-                0x000000002001712c       0x38 ./esp32_AT.o
-                0x000000002001712c                AT_echo_off
- .text.AT_at    0x0000000020017164       0x38 ./esp32_AT.o
-                0x0000000020017164                AT_at
+                0x0000000020013444       0xa4 ./blinky_demo/main_blinky.o
+ .text.process_message
+                0x00000000200134e8      0x150 ./blinky_demo/main_blinky.o
+ .text.init_led
+                0x0000000020013638       0xea ./blinky_demo/main_blinky.o
+ .text.led_ctrl
+                0x0000000020013722      0x136 ./blinky_demo/main_blinky.o
+ .text.pvPortMalloc
+                0x0000000020013858      0x1d0 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+                0x0000000020013858                pvPortMalloc
+ .text.vPortFree
+                0x0000000020013a28       0xcc ./FreeRTOS_Source/portable/MemMang/heap_4.o
+                0x0000000020013a28                vPortFree
+ .text.prvHeapInit
+                0x0000000020013af4      0x112 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .text.prvInsertBlockIntoFreeList
+                0x0000000020013c06       0xf8 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .text.vPortSetupTimerInterrupt
+                0x0000000020013cfe      0x140 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                0x0000000020013cfe                vPortSetupTimerInterrupt
+ .text.xPortStartScheduler
+                0x0000000020013e3e       0x46 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                0x0000000020013e3e                xPortStartScheduler
+ *fill*         0x0000000020013e84       0x7c 
+ .text          0x0000000020013f00      0x350 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
+                0x0000000020013f00                freertos_risc_v_trap_handler
+                0x0000000020014100                xPortStartFirstTask
+                0x0000000020014200                pxPortInitialiseStack
+ .text.vListInitialise
+                0x0000000020014250       0x4c ./FreeRTOS_Source/list.o
+                0x0000000020014250                vListInitialise
+ .text.vListInitialiseItem
+                0x000000002001429c       0x1a ./FreeRTOS_Source/list.o
+                0x000000002001429c                vListInitialiseItem
+ .text.vListInsertEnd
+                0x00000000200142b6       0x66 ./FreeRTOS_Source/list.o
+                0x00000000200142b6                vListInsertEnd
+ .text.vListInsert
+                0x000000002001431c       0xa2 ./FreeRTOS_Source/list.o
+                0x000000002001431c                vListInsert
+ .text.uxListRemove
+                0x00000000200143be       0x70 ./FreeRTOS_Source/list.o
+                0x00000000200143be                uxListRemove
+ .text.xQueueGenericReset
+                0x000000002001442e       0xd8 ./FreeRTOS_Source/queue.o
+                0x000000002001442e                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000000020014506       0x8e ./FreeRTOS_Source/queue.o
+                0x0000000020014506                xQueueGenericCreate
+ .text.prvInitialiseNewQueue
+                0x0000000020014594       0x60 ./FreeRTOS_Source/queue.o
+ .text.prvInitialiseMutex
+                0x00000000200145f4       0x40 ./FreeRTOS_Source/queue.o
+ .text.xQueueCreateMutex
+                0x0000000020014634       0x40 ./FreeRTOS_Source/queue.o
+                0x0000000020014634                xQueueCreateMutex
+ .text.xQueueGenericSend
+                0x0000000020014674      0x1bc ./FreeRTOS_Source/queue.o
+                0x0000000020014674                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x0000000020014830      0x104 ./FreeRTOS_Source/queue.o
+                0x0000000020014830                xQueueGenericSendFromISR
+ .text.xQueueReceive
+                0x0000000020014934      0x190 ./FreeRTOS_Source/queue.o
+                0x0000000020014934                xQueueReceive
+ .text.xQueueSemaphoreTake
+                0x0000000020014ac4      0x1de ./FreeRTOS_Source/queue.o
+                0x0000000020014ac4                xQueueSemaphoreTake
+ .text.prvGetDisinheritPriorityAfterTimeout
+                0x0000000020014ca2       0x36 ./FreeRTOS_Source/queue.o
+ .text.prvCopyDataToQueue
+                0x0000000020014cd8      0x12a ./FreeRTOS_Source/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000000020014e02       0x6a ./FreeRTOS_Source/queue.o
+ .text.prvUnlockQueue
+                0x0000000020014e6c       0xc4 ./FreeRTOS_Source/queue.o
+ .text.prvIsQueueEmpty
+                0x0000000020014f30       0x36 ./FreeRTOS_Source/queue.o
+ .text.prvIsQueueFull
+                0x0000000020014f66       0x3e ./FreeRTOS_Source/queue.o
+ .text.vQueueAddToRegistry
+                0x0000000020014fa4       0x72 ./FreeRTOS_Source/queue.o
+                0x0000000020014fa4                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x0000000020015016       0x8c ./FreeRTOS_Source/queue.o
+                0x0000000020015016                vQueueWaitForMessageRestricted
+ .text.xTaskCreate
+                0x00000000200150a2       0xac ./FreeRTOS_Source/tasks.o
+                0x00000000200150a2                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x000000002001514e      0x18a ./FreeRTOS_Source/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x00000000200152d8      0x100 ./FreeRTOS_Source/tasks.o
+ .text.vTaskDelay
+                0x00000000200153d8       0x4a ./FreeRTOS_Source/tasks.o
+                0x00000000200153d8                vTaskDelay
+ .text.vTaskStartScheduler
+                0x0000000020015422       0x8a ./FreeRTOS_Source/tasks.o
+                0x0000000020015422                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x00000000200154ac       0x22 ./FreeRTOS_Source/tasks.o
+                0x00000000200154ac                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x00000000200154ce      0x1cc ./FreeRTOS_Source/tasks.o
+                0x00000000200154ce                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x000000002001569a       0x1e ./FreeRTOS_Source/tasks.o
+                0x000000002001569a                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x00000000200156b8      0x1d2 ./FreeRTOS_Source/tasks.o
+                0x00000000200156b8                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x000000002001588a      0x132 ./FreeRTOS_Source/tasks.o
+                0x000000002001588a                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x00000000200159bc       0x42 ./FreeRTOS_Source/tasks.o
+                0x00000000200159bc                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x00000000200159fe       0x54 ./FreeRTOS_Source/tasks.o
+                0x00000000200159fe                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x0000000020015a52       0xd6 ./FreeRTOS_Source/tasks.o
+                0x0000000020015a52                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x0000000020015b28       0x2e ./FreeRTOS_Source/tasks.o
+                0x0000000020015b28                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0000000020015b56       0xec ./FreeRTOS_Source/tasks.o
+                0x0000000020015b56                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0000000020015c42       0x18 ./FreeRTOS_Source/tasks.o
+                0x0000000020015c42                vTaskMissedYield
+ .text.prvIdleTask
+                0x0000000020015c5a       0x10 ./FreeRTOS_Source/tasks.o
+ .text.prvInitialiseTaskLists
+                0x0000000020015c6a       0xa4 ./FreeRTOS_Source/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x0000000020015d0e       0x6c ./FreeRTOS_Source/tasks.o
+ .text.prvDeleteTCB
+                0x0000000020015d7a       0x2a ./FreeRTOS_Source/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x0000000020015da4       0x44 ./FreeRTOS_Source/tasks.o
+ .text.xTaskGetSchedulerState
+                0x0000000020015de8       0x3a ./FreeRTOS_Source/tasks.o
+                0x0000000020015de8                xTaskGetSchedulerState
+ .text.xTaskPriorityInherit
+                0x0000000020015e22      0x13c ./FreeRTOS_Source/tasks.o
+                0x0000000020015e22                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x0000000020015f5e      0x12a ./FreeRTOS_Source/tasks.o
+                0x0000000020015f5e                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x0000000020016088      0x150 ./FreeRTOS_Source/tasks.o
+                0x0000000020016088                vTaskPriorityDisinheritAfterTimeout
+ .text.vTaskEnterCritical
+                0x00000000200161d8       0x32 ./FreeRTOS_Source/tasks.o
+                0x00000000200161d8                vTaskEnterCritical
+ .text.vTaskExitCritical
+                0x000000002001620a       0x42 ./FreeRTOS_Source/tasks.o
+                0x000000002001620a                vTaskExitCritical
+ .text.pvTaskIncrementMutexHeldCount
+                0x000000002001624c       0x2e ./FreeRTOS_Source/tasks.o
+                0x000000002001624c                pvTaskIncrementMutexHeldCount
+ .text.prvAddCurrentTaskToDelayedList
+                0x000000002001627a      0x110 ./FreeRTOS_Source/tasks.o
+ .text.xTimerCreateTimerTask
+                0x000000002001638a       0x58 ./FreeRTOS_Source/timers.o
+                0x000000002001638a                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x00000000200163e2       0xcc ./FreeRTOS_Source/timers.o
+                0x00000000200163e2                xTimerGenericCommand
+ .text.prvProcessExpiredTimer
+                0x00000000200164ae       0xa6 ./FreeRTOS_Source/timers.o
+ .text.prvTimerTask
+                0x0000000020016554       0x28 ./FreeRTOS_Source/timers.o
+ .text.prvProcessTimerOrBlockTask
+                0x000000002001657c       0xa2 ./FreeRTOS_Source/timers.o
+ .text.prvGetNextExpireTime
+                0x000000002001661e       0x4c ./FreeRTOS_Source/timers.o
+ .text.prvSampleTimeNow
+                0x000000002001666a       0x52 ./FreeRTOS_Source/timers.o
+ .text.prvInsertTimerInActiveList
+                0x00000000200166bc       0xb4 ./FreeRTOS_Source/timers.o
+ .text.prvProcessReceivedCommands
+                0x0000000020016770      0x1c8 ./FreeRTOS_Source/timers.o
+ .text.prvSwitchTimerLists
+                0x0000000020016938       0xf4 ./FreeRTOS_Source/timers.o
+ .text.prvCheckForValidListAndQueue
+                0x0000000020016a2c       0x90 ./FreeRTOS_Source/timers.o
+ .text.AT_cmd   0x0000000020016abc       0x8a ./at.o
+                0x0000000020016abc                AT_cmd
  .text.AT_wifi_mode_station
-                0x000000002001719c       0x38 ./esp32_AT.o
-                0x000000002001719c                AT_wifi_mode_station
- .text.main     0x00000000200171d4       0x1a ./main.o
-                0x00000000200171d4                main
+                0x0000000020016b46       0x38 ./at.o
+                0x0000000020016b46                AT_wifi_mode_station
+ .text.AT_wifi_conn
+                0x0000000020016b7e       0x9a ./at.o
+                0x0000000020016b7e                AT_wifi_conn
+ .text.debug_putc
+                0x0000000020016c18       0x28 ./debug_serial.o
+                0x0000000020016c18                debug_putc
+ .text.debug_puts
+                0x0000000020016c40       0x4c ./debug_serial.o
+                0x0000000020016c40                debug_puts
+ .text.drv_esp32_send
+                0x0000000020016c8c       0xc6 ./drv_esp32.o
+                0x0000000020016c8c                drv_esp32_send
+ .text.drv_esp32_recv
+                0x0000000020016d52       0xec ./drv_esp32.o
+                0x0000000020016d52                drv_esp32_recv
+ .text.driver_spi1_transfer
+                0x0000000020016e3e      0x11a ./drv_spi1.o
+                0x0000000020016e3e                driver_spi1_transfer
+ .text.receive_1line
+                0x0000000020016f58       0xa4 ./esp32_AT.o
+ .text.prvSpiRxTask
+                0x0000000020016ffc      0x146 ./esp32_AT.o
+ .text.prvESP32Task
+                0x0000000020017142      0x124 ./esp32_AT.o
+ .text.queue_send_cmd
+                0x0000000020017266       0x6c ./esp32_AT.o
+ .text.queue_read_msg
+                0x00000000200172d2       0x78 ./esp32_AT.o
+ .text.queue_send_msg_len
+                0x000000002001734a       0x54 ./esp32_AT.o
+ .text.esp32_create_tasks
+                0x000000002001739e       0xd8 ./esp32_AT.o
+                0x000000002001739e                esp32_create_tasks
+ .text.esp32_send_cmd
+                0x0000000020017476       0x46 ./esp32_AT.o
+                0x0000000020017476                esp32_send_cmd
+ .text.esp32_recv
+                0x00000000200174bc       0x76 ./esp32_AT.o
+                0x00000000200174bc                esp32_recv
+ .text.esp32_process_message
+                0x0000000020017532      0x11c ./esp32_AT.o
+                0x0000000020017532                esp32_process_message
+ .text.main     0x000000002001764e       0x1a ./main.o
+                0x000000002001764e                main
  .text.prvSetupHardware
-                0x00000000200171ee       0xc0 ./main.o
+                0x0000000020017668       0xb0 ./main.o
  .text.vApplicationMallocFailedHook
-                0x00000000200172ae        0xc ./main.o
-                0x00000000200172ae                vApplicationMallocFailedHook
+                0x0000000020017718        0xc ./main.o
+                0x0000000020017718                vApplicationMallocFailedHook
  .text.vApplicationStackOverflowHook
-                0x00000000200172ba       0x14 ./main.o
-                0x00000000200172ba                vApplicationStackOverflowHook
+                0x0000000020017724       0x14 ./main.o
+                0x0000000020017724                vApplicationStackOverflowHook
  .text.vApplicationTickHook
-                0x00000000200172ce        0xe ./main.o
-                0x00000000200172ce                vApplicationTickHook
+                0x0000000020017738        0xe ./main.o
+                0x0000000020017738                vApplicationTickHook
  .text.vAssertCalled
-                0x00000000200172dc       0x8a ./main.o
-                0x00000000200172dc                vAssertCalled
+                0x0000000020017746       0x76 ./main.o
+                0x0000000020017746                vAssertCalled
  .text.handle_trap
-                0x0000000020017366       0x5e ./main.o
-                0x0000000020017366                handle_trap
- .text          0x00000000200173c4       0x3c d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
-                0x00000000200173c4                __clzsi2
- .text.atexit   0x0000000020017400        0xa d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
-                0x0000000020017400                atexit
- .text.exit     0x000000002001740a       0x28 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
-                0x000000002001740a                exit
+                0x00000000200177bc       0x5e ./main.o
+                0x00000000200177bc                handle_trap
+ .text          0x000000002001781a       0x3c d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                0x000000002001781a                __clzsi2
+ .text.atexit   0x0000000020017856        0xa d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
+                0x0000000020017856                atexit
+ .text.atoi     0x0000000020017860        0x6 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
+                0x0000000020017860                atoi
+ .text.exit     0x0000000020017866       0x28 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
+                0x0000000020017866                exit
  .text.__libc_fini_array
-                0x0000000020017432       0x38 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
-                0x0000000020017432                __libc_fini_array
+                0x000000002001788e       0x38 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
+                0x000000002001788e                __libc_fini_array
  .text.__libc_init_array
-                0x000000002001746a       0x6a d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
-                0x000000002001746a                __libc_init_array
- .text.memcmp   0x00000000200174d4       0x26 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
-                0x00000000200174d4                memcmp
- .text.memcpy   0x00000000200174fa       0xb6 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
-                0x00000000200174fa                memcpy
- .text          0x00000000200175b0       0xa8 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
-                0x00000000200175b0                memset
- .text.strcat   0x0000000020017658       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcat.o)
-                0x0000000020017658                strcat
- .text          0x0000000020017678      0x11e d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcmp.o)
-                0x0000000020017678                strcmp
- .text.strcpy   0x0000000020017796       0x12 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcpy.o)
-                0x0000000020017796                strcpy
- .text.strlen   0x00000000200177a8       0x12 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strlen.o)
-                0x00000000200177a8                strlen
+                0x00000000200178c6       0x6a d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
+                0x00000000200178c6                __libc_init_array
+ .text.memcmp   0x0000000020017930       0x26 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+                0x0000000020017930                memcmp
+ .text.memcpy   0x0000000020017956       0xb6 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+                0x0000000020017956                memcpy
+ .text          0x0000000020017a0c       0xa8 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                0x0000000020017a0c                memset
+ .text.strcat   0x0000000020017ab4       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcat.o)
+                0x0000000020017ab4                strcat
+ .text          0x0000000020017ad4      0x11e d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcmp.o)
+                0x0000000020017ad4                strcmp
+ .text.strcpy   0x0000000020017bf2       0x12 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcpy.o)
+                0x0000000020017bf2                strcpy
+ .text.strlen   0x0000000020017c04       0x12 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strlen.o)
+                0x0000000020017c04                strlen
+ .text.strncpy  0x0000000020017c16       0x24 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
+                0x0000000020017c16                strncpy
+ .text._strtol_l.isra.0
+                0x0000000020017c3a      0x12c d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
+ .text.strtol   0x0000000020017d66       0x10 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
+                0x0000000020017d66                strtol
  .text.__register_exitproc
-                0x00000000200177ba       0x84 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
-                0x00000000200177ba                __register_exitproc
+                0x0000000020017d76       0x84 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
+                0x0000000020017d76                __register_exitproc
  .text.__call_exitprocs
-                0x000000002001783e       0xc4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
-                0x000000002001783e                __call_exitprocs
+                0x0000000020017dfa       0xc4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000020017dfa                __call_exitprocs
  *(.itim .itim.*)
  *(.gnu.linkonce.t.*)
 
@@ -7135,121 +7156,126 @@ END GROUP
                 [!provide]                        PROVIDE (_etext = .)
                 [!provide]                        PROVIDE (etext = .)
 
-.rodata         0x0000000020017904      0xf7c
+.rodata         0x0000000020017ec0     0x10a8
  *(.rdata)
  *(.rodata .rodata.*)
  .rodata.__metal_driver_vtable_riscv_clint0
-                0x0000000020017904       0x20 ./freedom-metal/src/drivers/riscv_clint0.o
-                0x0000000020017904                __metal_driver_vtable_riscv_clint0
+                0x0000000020017ec0       0x20 ./freedom-metal/src/drivers/riscv_clint0.o
+                0x0000000020017ec0                __metal_driver_vtable_riscv_clint0
  .rodata.__metal_valid_interrupt_id
-                0x0000000020017924       0x74 ./freedom-metal/src/drivers/riscv_cpu.o
+                0x0000000020017ee0       0x74 ./freedom-metal/src/drivers/riscv_cpu.o
  .rodata.__metal_local_interrupt_enable
-                0x0000000020017998       0x80 ./freedom-metal/src/drivers/riscv_cpu.o
+                0x0000000020017f54       0x80 ./freedom-metal/src/drivers/riscv_cpu.o
  .rodata.__metal_driver_riscv_cpu_controller_interrupt_register
-                0x0000000020017a18       0x74 ./freedom-metal/src/drivers/riscv_cpu.o
+                0x0000000020017fd4       0x74 ./freedom-metal/src/drivers/riscv_cpu.o
  .rodata.__metal_driver_vtable_riscv_cpu_intc
-                0x0000000020017a8c       0x20 ./freedom-metal/src/drivers/riscv_cpu.o
-                0x0000000020017a8c                __metal_driver_vtable_riscv_cpu_intc
+                0x0000000020018048       0x20 ./freedom-metal/src/drivers/riscv_cpu.o
+                0x0000000020018048                __metal_driver_vtable_riscv_cpu_intc
  .rodata.__metal_driver_vtable_cpu
-                0x0000000020017aac       0x40 ./freedom-metal/src/drivers/riscv_cpu.o
-                0x0000000020017aac                __metal_driver_vtable_cpu
+                0x0000000020018068       0x40 ./freedom-metal/src/drivers/riscv_cpu.o
+                0x0000000020018068                __metal_driver_vtable_cpu
  .rodata.__metal_driver_vtable_riscv_plic0
-                0x0000000020017aec       0x20 ./freedom-metal/src/drivers/riscv_plic0.o
-                0x0000000020017aec                __metal_driver_vtable_riscv_plic0
+                0x00000000200180a8       0x20 ./freedom-metal/src/drivers/riscv_plic0.o
+                0x00000000200180a8                __metal_driver_vtable_riscv_plic0
  .rodata.pll_configs
-                0x0000000020017b0c      0x880 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
+                0x00000000200180c8      0x880 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
  .rodata.__metal_driver_vtable_sifive_fe310_g000_pll
-                0x000000002001838c        0xc ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
-                0x000000002001838c                __metal_driver_vtable_sifive_fe310_g000_pll
- .rodata        0x0000000020018398       0x1d ./freedom-metal/src/drivers/sifive_gpio-leds.o
- *fill*         0x00000000200183b5        0x3 
+                0x0000000020018948        0xc ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
+                0x0000000020018948                __metal_driver_vtable_sifive_fe310_g000_pll
+ .rodata        0x0000000020018954       0x1d ./freedom-metal/src/drivers/sifive_gpio-leds.o
+ *fill*         0x0000000020018971        0x3 
  .rodata.__metal_driver_vtable_sifive_led
-                0x00000000200183b8       0x14 ./freedom-metal/src/drivers/sifive_gpio-leds.o
-                0x00000000200183b8                __metal_driver_vtable_sifive_led
+                0x0000000020018974       0x14 ./freedom-metal/src/drivers/sifive_gpio-leds.o
+                0x0000000020018974                __metal_driver_vtable_sifive_led
  .rodata.__metal_driver_vtable_sifive_gpio0
-                0x00000000200183cc       0x1c ./freedom-metal/src/drivers/sifive_gpio0.o
-                0x00000000200183cc                __metal_driver_vtable_sifive_gpio0
+                0x0000000020018988       0x1c ./freedom-metal/src/drivers/sifive_gpio0.o
+                0x0000000020018988                __metal_driver_vtable_sifive_gpio0
  .rodata.__metal_driver_vtable_sifive_uart0
-                0x00000000200183e8       0x1c ./freedom-metal/src/drivers/sifive_uart0.o
-                0x00000000200183e8                __metal_driver_vtable_sifive_uart0
+                0x00000000200189a4       0x1c ./freedom-metal/src/drivers/sifive_uart0.o
+                0x00000000200189a4                __metal_driver_vtable_sifive_uart0
  .rodata.libgloss.start
-                0x0000000020018404       0x11 ./freedom-metal/gloss/crt0.o
- *fill*         0x0000000020018415        0x3 
- .rodata        0x0000000020018418      0x1b6 ./blinky_demo/main_blinky.o
- *fill*         0x00000000200185ce        0x2 
- .rodata        0x00000000200185d0        0x5 ./FreeRTOS_Source/tasks.o
- *fill*         0x00000000200185d5        0x3 
- .rodata        0x00000000200185d8        0xd ./FreeRTOS_Source/timers.o
- *fill*         0x00000000200185e5        0x3 
+                0x00000000200189c0       0x11 ./freedom-metal/gloss/crt0.o
+ *fill*         0x00000000200189d1        0x3 
+ .rodata        0x00000000200189d4      0x1da ./blinky_demo/main_blinky.o
+ *fill*         0x0000000020018bae        0x2 
+ .rodata        0x0000000020018bb0        0x5 ./FreeRTOS_Source/tasks.o
+ *fill*         0x0000000020018bb5        0x3 
+ .rodata        0x0000000020018bb8        0xd ./FreeRTOS_Source/timers.o
+ *fill*         0x0000000020018bc5        0x3 
  .rodata.prvProcessReceivedCommands
-                0x00000000200185e8       0x28 ./FreeRTOS_Source/timers.o
- .rodata        0x0000000020018610       0x14 ./drv_esp32.o
- .rodata        0x0000000020018624      0x14c ./esp32_AT.o
- .rodata        0x0000000020018770       0x10 ./main.o
- .rodata        0x0000000020018780      0x100 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
-                0x0000000020018780                __clz_tab
+                0x0000000020018bc8       0x28 ./FreeRTOS_Source/timers.o
+ .rodata        0x0000000020018bf0       0x48 ./at.o
+ .rodata        0x0000000020018c38       0x14 ./drv_esp32.o
+ .rodata        0x0000000020018c4c      0x102 ./esp32_AT.o
+ *fill*         0x0000000020018d4e        0x2 
+ .rodata        0x0000000020018d50       0x10 ./main.o
+ .rodata        0x0000000020018d60      0x100 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                0x0000000020018d60                __clz_tab
+ .rodata._ctype_
+                0x0000000020018e60      0x101 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+                0x0000000020018e60                _ctype_
  *(.gnu.linkonce.r.*)
-                0x0000000020018880                . = ALIGN (0x8)
- *fill*         0x0000000020018880        0x0 
+                0x0000000020018f68                . = ALIGN (0x8)
+ *fill*         0x0000000020018f61        0x7 
  *(.srodata.cst16)
  *(.srodata.cst8)
  *(.srodata.cst4)
  *(.srodata.cst2)
  *(.srodata .srodata.*)
 
-.rela.dyn       0x0000000020018880        0x0
+.rela.dyn       0x0000000020018f68        0x0
  .rela.text.__metal_driver_cpu_get
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.__metal_default_sw_handler
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.__metal_exception_handler
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.metal_cpu_get
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.metal.init.enter
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.metal_led_get_rgb
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.libgloss.start
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.sdata2.xISRStackTop
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.xPortStartScheduler
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.vQueueAddToRegistry
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.prvESP32Task
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.queue_send_cmd
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.__libc_fini_array
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.data.impure_data
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.__libc_init_array
-                0x0000000020018880        0x0 ./stdio/printf.o
+                0x0000000020018f68        0x0 ./stdio/printf.o
  .rela.text.__register_exitproc
-                0x0000000020018880        0x0 ./stdio/printf.o
-                0x0000000020018880                . = ALIGN (0x4)
+                0x0000000020018f68        0x0 ./stdio/printf.o
+                0x0000000020018f68                . = ALIGN (0x4)
 
-.preinit_array  0x0000000020018880        0x0
-                0x0000000020018880                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000020018f68        0x0
+                0x0000000020018f68                PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
-                0x0000000020018880                PROVIDE (__preinit_array_end = .)
+                0x0000000020018f68                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000020018880        0xc
-                0x0000000020018880                PROVIDE (__init_array_start = .)
+.init_array     0x0000000020018f68        0xc
+                0x0000000020018f68                PROVIDE (__init_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
  *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
- .init_array    0x0000000020018880        0x8 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
- .init_array    0x0000000020018888        0x4 ./freedom-metal/src/tty.o
-                0x000000002001888c                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000020018f68        0x8 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
+ .init_array    0x0000000020018f70        0x4 ./freedom-metal/src/tty.o
+                0x0000000020018f74                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000002001888c        0x0
-                0x000000002001888c                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000020018f74        0x0
+                0x0000000020018f74                PROVIDE (__fini_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
  *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
-                0x000000002001888c                PROVIDE (__fini_array_end = .)
+                0x0000000020018f74                PROVIDE (__fini_array_end = .)
 
 .ctors
  *crtbegin.o(.ctors)
@@ -7265,11 +7291,11 @@ END GROUP
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
 
-.litimalign     0x000000002001888c        0x0
-                0x000000002001888c                . = ALIGN (0x4)
-                0x000000002001888c                PROVIDE (metal_segment_itim_source_start = .)
+.litimalign     0x0000000020018f74        0x0
+                0x0000000020018f74                . = ALIGN (0x4)
+                0x0000000020018f74                PROVIDE (metal_segment_itim_source_start = .)
 
-.ditimalign     0x0000000080000000        0x0 load address 0x000000002001888c
+.ditimalign     0x0000000080000000        0x0 load address 0x0000000020018f74
                 0x0000000080000000                . = ALIGN (0x4)
                 0x0000000080000000                PROVIDE (metal_segment_itim_target_start = .)
 
@@ -7278,16 +7304,16 @@ END GROUP
                 0x0000000080000000                . = ALIGN (0x8)
                 0x0000000080000000                PROVIDE (metal_segment_itim_target_end = .)
 
-.lalign         0x000000002001888c        0x0
-                0x000000002001888c                . = ALIGN (0x4)
+.lalign         0x0000000020018f74        0x0
+                0x0000000020018f74                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_data_lma = .)
-                0x000000002001888c                PROVIDE (metal_segment_data_source_start = .)
+                0x0000000020018f74                PROVIDE (metal_segment_data_source_start = .)
 
-.dalign         0x0000000080000000        0x0 load address 0x000000002001888c
+.dalign         0x0000000080000000        0x0 load address 0x0000000020018f74
                 0x0000000080000000                . = ALIGN (0x4)
                 0x0000000080000000                PROVIDE (metal_segment_data_target_start = .)
 
-.data           0x0000000080000000      0x7fc load address 0x000000002001888c
+.data           0x0000000080000000      0x804 load address 0x0000000020018f74
  *(.data .data.*)
  .data.__metal_led_table
                 0x0000000080000000        0xc ./stdio/printf.o
@@ -7359,171 +7385,181 @@ END GROUP
  .sdata2.__metal_driver_vtable_sifive_fe310_g000_prci
                 0x00000000800007e0        0x8 ./freedom-metal/src/drivers/sifive_fe310-g000_prci.o
                 0x00000000800007e0                __metal_driver_vtable_sifive_fe310_g000_prci
- .sdata.s_is_connect
+ .sdata.esp32_ret
                 0x00000000800007e8        0x4 ./blinky_demo/main_blinky.o
+ .sdata.s_is_connect
+                0x00000000800007ec        0x4 ./blinky_demo/main_blinky.o
  .sdata2.xISRStackTop
-                0x00000000800007ec        0x4 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x00000000800007ec                xISRStackTop
- .sdata.pullNextTime
                 0x00000000800007f0        0x4 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x00000000800007f0                pullNextTime
- .sdata2.uxTimerIncrementsForOneTick
+                0x00000000800007f0                xISRStackTop
+ .sdata.pullNextTime
                 0x00000000800007f4        0x4 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x00000000800007f4                uxTimerIncrementsForOneTick
+                0x00000000800007f4                pullNextTime
+ .sdata2.uxTimerIncrementsForOneTick
+                0x00000000800007f8        0x4 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                0x00000000800007f8                uxTimerIncrementsForOneTick
+ .sdata._impure_ptr
+                0x00000000800007fc        0x4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x00000000800007fc                _impure_ptr
  .sdata2._global_impure_ptr
-                0x00000000800007f8        0x4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
-                0x00000000800007f8                _global_impure_ptr
+                0x0000000080000800        0x4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x0000000080000800                _global_impure_ptr
  *(.gnu.linkonce.s.*)
-                0x00000000800007fc                . = ALIGN (0x4)
+                0x0000000080000804                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_edata = .)
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000800007fc                PROVIDE (metal_segment_data_target_end = .)
+                0x0000000080000804                PROVIDE (metal_segment_data_target_end = .)
                 [!provide]                        PROVIDE (_fbss = .)
                 [!provide]                        PROVIDE (__bss_start = .)
-                0x00000000800007fc                PROVIDE (metal_segment_bss_target_start = .)
+                0x0000000080000804                PROVIDE (metal_segment_bss_target_start = .)
 
-.bss            0x0000000080000800     0x332c
+.bss            0x0000000080000808     0x333c
  *(.sbss*)
- .sbss.xQueue   0x0000000080000800        0x4 ./blinky_demo/main_blinky.o
+ .sbss.xQueue   0x0000000080000808        0x4 ./blinky_demo/main_blinky.o
  .sbss.pxRedLED
-                0x0000000080000804        0x4 ./blinky_demo/main_blinky.o
- .sbss.pxGreenLED
-                0x0000000080000808        0x4 ./blinky_demo/main_blinky.o
- .sbss.pxBlueLED
                 0x000000008000080c        0x4 ./blinky_demo/main_blinky.o
- .sbss.xStart   0x0000000080000810        0x8 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.pxEnd    0x0000000080000818        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.xFreeBytesRemaining
-                0x000000008000081c        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.xMinimumEverFreeBytesRemaining
-                0x0000000080000820        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.xNumberOfSuccessfulAllocations
-                0x0000000080000824        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.xNumberOfSuccessfulFrees
-                0x0000000080000828        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.xBlockAllocatedBit
-                0x000000008000082c        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .sbss.ullNextTime
-                0x0000000080000830        0x8 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x0000000080000830                ullNextTime
- .sbss.pullMachineTimerCompareRegister
-                0x0000000080000838        0x4 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                0x0000000080000838                pullMachineTimerCompareRegister
- .sbss.pxCurrentTCB
-                0x000000008000083c        0x4 ./FreeRTOS_Source/tasks.o
-                0x000000008000083c                pxCurrentTCB
- .sbss.pxDelayedTaskList
-                0x0000000080000840        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.pxOverflowDelayedTaskList
-                0x0000000080000844        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.uxDeletedTasksWaitingCleanUp
-                0x0000000080000848        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.uxCurrentNumberOfTasks
-                0x000000008000084c        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xTickCount
-                0x0000000080000850        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.uxTopReadyPriority
-                0x0000000080000854        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xSchedulerRunning
-                0x0000000080000858        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xPendedTicks
-                0x000000008000085c        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xYieldPending
-                0x0000000080000860        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xNumOfOverflows
-                0x0000000080000864        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.uxTaskNumber
-                0x0000000080000868        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xNextTaskUnblockTime
-                0x000000008000086c        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.xIdleTaskHandle
-                0x0000000080000870        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.uxSchedulerSuspended
-                0x0000000080000874        0x4 ./FreeRTOS_Source/tasks.o
- .sbss.pxCurrentTimerList
-                0x0000000080000878        0x4 ./FreeRTOS_Source/timers.o
- .sbss.pxOverflowTimerList
-                0x000000008000087c        0x4 ./FreeRTOS_Source/timers.o
- .sbss.xTimerQueue
-                0x0000000080000880        0x4 ./FreeRTOS_Source/timers.o
- .sbss.xTimerTaskHandle
-                0x0000000080000884        0x4 ./FreeRTOS_Source/timers.o
- .sbss.xLastTime.2814
-                0x0000000080000888        0x4 ./FreeRTOS_Source/timers.o
- .sbss.xQueueRx
-                0x000000008000088c        0x4 ./esp32_AT.o
- .sbss.xQueueTx
-                0x0000000080000890        0x4 ./esp32_AT.o
- .sbss.xQueueRxLen
-                0x0000000080000894        0x4 ./esp32_AT.o
- .sbss.xSemaphore
-                0x0000000080000898        0x4 ./esp32_AT.o
+ .sbss.pxGreenLED
+                0x0000000080000810        0x4 ./blinky_demo/main_blinky.o
  .sbss.pxBlueLED
-                0x000000008000089c        0x4 ./main.o
+                0x0000000080000814        0x4 ./blinky_demo/main_blinky.o
+ .sbss.s_led_buf
+                0x0000000080000818        0x4 ./blinky_demo/main_blinky.o
+ .sbss.s_idf_len
+                0x000000008000081c        0x8 ./blinky_demo/main_blinky.o
+ .sbss.xStart   0x0000000080000824        0x8 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .sbss.pxEnd    0x000000008000082c        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .sbss.xFreeBytesRemaining
+                0x0000000080000830        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .sbss.xMinimumEverFreeBytesRemaining
+                0x0000000080000834        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .sbss.xNumberOfSuccessfulAllocations
+                0x0000000080000838        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .sbss.xNumberOfSuccessfulFrees
+                0x000000008000083c        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .sbss.xBlockAllocatedBit
+                0x0000000080000840        0x4 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ *fill*         0x0000000080000844        0x4 
+ .sbss.ullNextTime
+                0x0000000080000848        0x8 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                0x0000000080000848                ullNextTime
+ .sbss.pullMachineTimerCompareRegister
+                0x0000000080000850        0x4 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                0x0000000080000850                pullMachineTimerCompareRegister
+ .sbss.pxCurrentTCB
+                0x0000000080000854        0x4 ./FreeRTOS_Source/tasks.o
+                0x0000000080000854                pxCurrentTCB
+ .sbss.pxDelayedTaskList
+                0x0000000080000858        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.pxOverflowDelayedTaskList
+                0x000000008000085c        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.uxDeletedTasksWaitingCleanUp
+                0x0000000080000860        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.uxCurrentNumberOfTasks
+                0x0000000080000864        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xTickCount
+                0x0000000080000868        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.uxTopReadyPriority
+                0x000000008000086c        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xSchedulerRunning
+                0x0000000080000870        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xPendedTicks
+                0x0000000080000874        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xYieldPending
+                0x0000000080000878        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xNumOfOverflows
+                0x000000008000087c        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.uxTaskNumber
+                0x0000000080000880        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xNextTaskUnblockTime
+                0x0000000080000884        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.xIdleTaskHandle
+                0x0000000080000888        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.uxSchedulerSuspended
+                0x000000008000088c        0x4 ./FreeRTOS_Source/tasks.o
+ .sbss.pxCurrentTimerList
+                0x0000000080000890        0x4 ./FreeRTOS_Source/timers.o
+ .sbss.pxOverflowTimerList
+                0x0000000080000894        0x4 ./FreeRTOS_Source/timers.o
+ .sbss.xTimerQueue
+                0x0000000080000898        0x4 ./FreeRTOS_Source/timers.o
+ .sbss.xTimerTaskHandle
+                0x000000008000089c        0x4 ./FreeRTOS_Source/timers.o
+ .sbss.xLastTime.2814
+                0x00000000800008a0        0x4 ./FreeRTOS_Source/timers.o
+ .sbss.xQueueRx
+                0x00000000800008a4        0x4 ./esp32_AT.o
+ .sbss.xQueueTx
+                0x00000000800008a8        0x4 ./esp32_AT.o
+ .sbss.xQueueRxLen
+                0x00000000800008ac        0x4 ./esp32_AT.o
+ .sbss.xSemaphore
+                0x00000000800008b0        0x4 ./esp32_AT.o
+ .sbss.pxBlueLED
+                0x00000000800008b4        0x4 ./main.o
  .sbss.pxRedLED.2828
-                0x00000000800008a0        0x4 ./main.o
+                0x00000000800008b8        0x4 ./main.o
  .sbss._global_atexit
-                0x00000000800008a4        0x4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
-                0x00000000800008a4                _global_atexit
+                0x00000000800008bc        0x4 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+                0x00000000800008bc                _global_atexit
  *(.gnu.linkonce.sb.*)
  *(.bss .bss.*)
  .bss.__metal_dt_prci_10008000
-                0x00000000800008a8        0x0 ./freedom-metal/src/drivers/inline.o
-                0x00000000800008a8                __metal_dt_prci_10008000
- .bss.s_msg     0x00000000800008a8      0x200 ./blinky_demo/main_blinky.o
- .bss.ucHeap    0x0000000080000aa8     0x2a94 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+                0x00000000800008c0        0x0 ./freedom-metal/src/drivers/inline.o
+                0x00000000800008c0                __metal_dt_prci_10008000
+ .bss.s_msg     0x00000000800008c0      0x200 ./blinky_demo/main_blinky.o
+ .bss.ucHeap    0x0000000080000ac0     0x2a94 ./FreeRTOS_Source/portable/MemMang/heap_4.o
  .bss.pxReadyTasksLists
-                0x000000008000353c       0x8c ./FreeRTOS_Source/tasks.o
+                0x0000000080003554       0x8c ./FreeRTOS_Source/tasks.o
  .bss.xDelayedTaskList1
-                0x00000000800035c8       0x14 ./FreeRTOS_Source/tasks.o
+                0x00000000800035e0       0x14 ./FreeRTOS_Source/tasks.o
  .bss.xDelayedTaskList2
-                0x00000000800035dc       0x14 ./FreeRTOS_Source/tasks.o
+                0x00000000800035f4       0x14 ./FreeRTOS_Source/tasks.o
  .bss.xPendingReadyList
-                0x00000000800035f0       0x14 ./FreeRTOS_Source/tasks.o
+                0x0000000080003608       0x14 ./FreeRTOS_Source/tasks.o
  .bss.xTasksWaitingTermination
-                0x0000000080003604       0x14 ./FreeRTOS_Source/tasks.o
+                0x000000008000361c       0x14 ./FreeRTOS_Source/tasks.o
  .bss.xSuspendedTaskList
-                0x0000000080003618       0x14 ./FreeRTOS_Source/tasks.o
+                0x0000000080003630       0x14 ./FreeRTOS_Source/tasks.o
  .bss.xActiveTimerList1
-                0x000000008000362c       0x14 ./FreeRTOS_Source/timers.o
+                0x0000000080003644       0x14 ./FreeRTOS_Source/timers.o
  .bss.xActiveTimerList2
-                0x0000000080003640       0x14 ./FreeRTOS_Source/timers.o
+                0x0000000080003658       0x14 ./FreeRTOS_Source/timers.o
  .bss.messageReceive
-                0x0000000080003654      0x400 ./esp32_AT.o
+                0x000000008000366c      0x400 ./esp32_AT.o
  .bss._global_atexit0
-                0x0000000080003a54       0x8c d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
+                0x0000000080003a6c       0x8c d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
- COMMON         0x0000000080003ae0       0x40 ./FreeRTOS_Source/queue.o
-                0x0000000080003ae0                xQueueRegistry
- COMMON         0x0000000080003b20        0xc ./esp32_AT.o
-                0x0000000080003b20                s_esp32
-                0x0000000080003b2c                . = ALIGN (0x4)
-                0x0000000080003b30                . = ALIGN (0x8)
+ COMMON         0x0000000080003af8       0x40 ./FreeRTOS_Source/queue.o
+                0x0000000080003af8                xQueueRegistry
+ COMMON         0x0000000080003b38        0xc ./esp32_AT.o
+                0x0000000080003b38                s_esp32
+                0x0000000080003b44                . = ALIGN (0x4)
+                0x0000000080003b48                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (_end = .)
                 [!provide]                        PROVIDE (end = .)
-                0x0000000080003b30                PROVIDE (metal_segment_bss_target_end = .)
+                0x0000000080003b48                PROVIDE (metal_segment_bss_target_end = .)
 
-.stack          0x0000000080003b2c      0x404
-                0x0000000080003b30                . = ALIGN (0x10)
- *fill*         0x0000000080003b2c        0x4 
-                0x0000000080003b30                metal_segment_stack_begin = .
-                0x0000000080003f30                . = (. + __stack_size)
- *fill*         0x0000000080003b30      0x400 
-                0x0000000080003f30                . = ALIGN (0x10)
-                0x0000000080003f30                _sp = .
+.stack          0x0000000080003b44      0x40c
+                0x0000000080003b50                . = ALIGN (0x10)
+ *fill*         0x0000000080003b44        0xc 
+                0x0000000080003b50                metal_segment_stack_begin = .
+                0x0000000080003f50                . = (. + __stack_size)
+ *fill*         0x0000000080003b50      0x400 
+                0x0000000080003f50                . = ALIGN (0x10)
+                0x0000000080003f50                _sp = .
                 [!provide]                        PROVIDE (metal_segment_stack_end = .)
-                0x0000000080003f30                __freertos_irq_stack_top = .
+                0x0000000080003f50                __freertos_irq_stack_top = .
 
-.heap           0x0000000080003f30        0x4
-                0x0000000080003f30                PROVIDE (metal_segment_heap_target_start = .)
+.heap           0x0000000080003f50        0x4
+                0x0000000080003f50                PROVIDE (metal_segment_heap_target_start = .)
                 0x0000000000000004                . = __heap_size
- *fill*         0x0000000080003f30        0x4 
-                0x0000000080003f34                PROVIDE (metal_segment_heap_target_end = .)
+ *fill*         0x0000000080003f50        0x4 
+                0x0000000080003f54                PROVIDE (metal_segment_heap_target_end = .)
                 [!provide]                        PROVIDE (_heap_end = .)
 OUTPUT(RTOSDemo elf32-littleriscv)
 
-.debug_info     0x0000000000000000    0x2aecd
+.debug_info     0x0000000000000000    0x2b7e5
  .debug_info    0x0000000000000000     0x1452 ./stdio/printf.o
  .debug_info    0x0000000000001452     0x12ba ./freedom-metal/src/drivers/fixed-clock.o
  .debug_info    0x000000000000270c     0x121c ./freedom-metal/src/drivers/inline.o
@@ -7549,23 +7585,24 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .debug_info    0x000000000001b043       0x26 ./freedom-metal/gloss/crt0.o
  .debug_info    0x000000000001b069     0x1236 ./freedom-metal/gloss/synchronize_harts.o
  .debug_info    0x000000000001c29f       0x53 ./freedom-metal/gloss/sys_exit.o
- .debug_info    0x000000000001c2f2      0xe67 ./blinky_demo/main_blinky.o
- .debug_info    0x000000000001d159      0xceb ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .debug_info    0x000000000001de44      0x268 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
- .debug_info    0x000000000001e0ac       0x26 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
- .debug_info    0x000000000001e0d2      0xb77 ./FreeRTOS_Source/list.o
- .debug_info    0x000000000001ec49     0x199e ./FreeRTOS_Source/queue.o
- .debug_info    0x00000000000205e7     0x2024 ./FreeRTOS_Source/tasks.o
- .debug_info    0x000000000002260b     0x1486 ./FreeRTOS_Source/timers.o
- .debug_info    0x0000000000023a91     0x12c4 ./debug_serial.o
- .debug_info    0x0000000000024d55      0xa23 ./drv_esp32.o
- .debug_info    0x0000000000025778      0x9dd ./drv_spi1.o
- .debug_info    0x0000000000026155     0x222b ./esp32_AT.o
- .debug_info    0x0000000000028380     0x140c ./main.o
- .debug_info    0x000000000002978c      0xbd7 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
- .debug_info    0x000000000002a363      0xb6a d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .debug_info    0x000000000001c2f2      0xe49 ./blinky_demo/main_blinky.o
+ .debug_info    0x000000000001d13b      0xceb ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .debug_info    0x000000000001de26      0x268 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+ .debug_info    0x000000000001e08e       0x26 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
+ .debug_info    0x000000000001e0b4      0xb77 ./FreeRTOS_Source/list.o
+ .debug_info    0x000000000001ec2b     0x199e ./FreeRTOS_Source/queue.o
+ .debug_info    0x00000000000205c9     0x2024 ./FreeRTOS_Source/tasks.o
+ .debug_info    0x00000000000225ed     0x1486 ./FreeRTOS_Source/timers.o
+ .debug_info    0x0000000000023a73      0xb41 ./at.o
+ .debug_info    0x00000000000245b4     0x12c4 ./debug_serial.o
+ .debug_info    0x0000000000025878      0xa23 ./drv_esp32.o
+ .debug_info    0x000000000002629b      0x9dd ./drv_spi1.o
+ .debug_info    0x0000000000026c78     0x2020 ./esp32_AT.o
+ .debug_info    0x0000000000028c98     0x140c ./main.o
+ .debug_info    0x000000000002a0a4      0xbd7 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_info    0x000000000002ac7b      0xb6a d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
-.debug_abbrev   0x0000000000000000     0x51ef
+.debug_abbrev   0x0000000000000000     0x53a5
  .debug_abbrev  0x0000000000000000      0x25c ./stdio/printf.o
  .debug_abbrev  0x000000000000025c      0x1db ./freedom-metal/src/drivers/fixed-clock.o
  .debug_abbrev  0x0000000000000437      0x181 ./freedom-metal/src/drivers/inline.o
@@ -7591,23 +7628,24 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .debug_abbrev  0x0000000000002ebb       0x14 ./freedom-metal/gloss/crt0.o
  .debug_abbrev  0x0000000000002ecf      0x19d ./freedom-metal/gloss/synchronize_harts.o
  .debug_abbrev  0x000000000000306c       0x50 ./freedom-metal/gloss/sys_exit.o
- .debug_abbrev  0x00000000000030bc      0x302 ./blinky_demo/main_blinky.o
- .debug_abbrev  0x00000000000033be      0x28d ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .debug_abbrev  0x000000000000364b      0x108 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
- .debug_abbrev  0x0000000000003753       0x14 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
- .debug_abbrev  0x0000000000003767      0x1f7 ./FreeRTOS_Source/list.o
- .debug_abbrev  0x000000000000395e      0x2d3 ./FreeRTOS_Source/queue.o
- .debug_abbrev  0x0000000000003c31      0x343 ./FreeRTOS_Source/tasks.o
- .debug_abbrev  0x0000000000003f74      0x299 ./FreeRTOS_Source/timers.o
- .debug_abbrev  0x000000000000420d      0x20c ./debug_serial.o
- .debug_abbrev  0x0000000000004419      0x1d2 ./drv_esp32.o
- .debug_abbrev  0x00000000000045eb      0x1e3 ./drv_spi1.o
- .debug_abbrev  0x00000000000047ce      0x367 ./esp32_AT.o
- .debug_abbrev  0x0000000000004b35      0x290 ./main.o
- .debug_abbrev  0x0000000000004dc5      0x242 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
- .debug_abbrev  0x0000000000005007      0x1e8 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .debug_abbrev  0x00000000000030bc      0x2e4 ./blinky_demo/main_blinky.o
+ .debug_abbrev  0x00000000000033a0      0x28d ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .debug_abbrev  0x000000000000362d      0x108 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+ .debug_abbrev  0x0000000000003735       0x14 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
+ .debug_abbrev  0x0000000000003749      0x1f7 ./FreeRTOS_Source/list.o
+ .debug_abbrev  0x0000000000003940      0x2d3 ./FreeRTOS_Source/queue.o
+ .debug_abbrev  0x0000000000003c13      0x343 ./FreeRTOS_Source/tasks.o
+ .debug_abbrev  0x0000000000003f56      0x299 ./FreeRTOS_Source/timers.o
+ .debug_abbrev  0x00000000000041ef      0x1f0 ./at.o
+ .debug_abbrev  0x00000000000043df      0x20c ./debug_serial.o
+ .debug_abbrev  0x00000000000045eb      0x1d2 ./drv_esp32.o
+ .debug_abbrev  0x00000000000047bd      0x1e3 ./drv_spi1.o
+ .debug_abbrev  0x00000000000049a0      0x34b ./esp32_AT.o
+ .debug_abbrev  0x0000000000004ceb      0x290 ./main.o
+ .debug_abbrev  0x0000000000004f7b      0x242 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000000000051bd      0x1e8 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
-.debug_aranges  0x0000000000000000      0xff0
+.debug_aranges  0x0000000000000000     0x1018
  .debug_aranges
                 0x0000000000000000       0x50 ./stdio/printf.o
  .debug_aranges
@@ -7659,37 +7697,39 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .debug_aranges
                 0x00000000000008d8       0x20 ./freedom-metal/gloss/sys_exit.o
  .debug_aranges
-                0x00000000000008f8       0x70 ./blinky_demo/main_blinky.o
+                0x00000000000008f8       0x80 ./blinky_demo/main_blinky.o
  .debug_aranges
-                0x0000000000000968       0x58 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+                0x0000000000000978       0x58 ./FreeRTOS_Source/portable/MemMang/heap_4.o
  .debug_aranges
-                0x00000000000009c0       0x30 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                0x00000000000009d0       0x30 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
  .debug_aranges
-                0x00000000000009f0       0x20 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
+                0x0000000000000a00       0x20 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
  .debug_aranges
-                0x0000000000000a10       0x40 ./FreeRTOS_Source/list.o
+                0x0000000000000a20       0x40 ./FreeRTOS_Source/list.o
  .debug_aranges
-                0x0000000000000a50      0x128 ./FreeRTOS_Source/queue.o
+                0x0000000000000a60      0x128 ./FreeRTOS_Source/queue.o
  .debug_aranges
-                0x0000000000000b78      0x1e8 ./FreeRTOS_Source/tasks.o
+                0x0000000000000b88      0x1e8 ./FreeRTOS_Source/tasks.o
  .debug_aranges
-                0x0000000000000d60       0xd0 ./FreeRTOS_Source/timers.o
+                0x0000000000000d70       0xd0 ./FreeRTOS_Source/timers.o
  .debug_aranges
-                0x0000000000000e30       0x30 ./debug_serial.o
+                0x0000000000000e40       0x48 ./at.o
  .debug_aranges
-                0x0000000000000e60       0x30 ./drv_esp32.o
+                0x0000000000000e88       0x30 ./debug_serial.o
  .debug_aranges
-                0x0000000000000e90       0x28 ./drv_spi1.o
+                0x0000000000000eb8       0x30 ./drv_esp32.o
  .debug_aranges
-                0x0000000000000eb8       0x98 ./esp32_AT.o
+                0x0000000000000ee8       0x28 ./drv_spi1.o
  .debug_aranges
-                0x0000000000000f50       0x68 ./main.o
+                0x0000000000000f10       0x68 ./esp32_AT.o
  .debug_aranges
-                0x0000000000000fb8       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                0x0000000000000f78       0x68 ./main.o
  .debug_aranges
-                0x0000000000000fd8       0x18 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                0x0000000000000fe0       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000001000       0x18 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
-.debug_ranges   0x0000000000000000      0xde8
+.debug_ranges   0x0000000000000000      0xe00
  .debug_ranges  0x0000000000000000       0x40 ./stdio/printf.o
  .debug_ranges  0x0000000000000040       0x20 ./freedom-metal/src/drivers/fixed-clock.o
  .debug_ranges  0x0000000000000060       0xb0 ./freedom-metal/src/drivers/riscv_clint0.o
@@ -7713,21 +7753,22 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .debug_ranges  0x0000000000000750       0x30 ./freedom-metal/src/uart.o
  .debug_ranges  0x0000000000000780       0x10 ./freedom-metal/gloss/synchronize_harts.o
  .debug_ranges  0x0000000000000790       0x10 ./freedom-metal/gloss/sys_exit.o
- .debug_ranges  0x00000000000007a0       0x78 ./blinky_demo/main_blinky.o
- .debug_ranges  0x0000000000000818       0x48 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .debug_ranges  0x0000000000000860       0x20 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
- .debug_ranges  0x0000000000000880       0x30 ./FreeRTOS_Source/list.o
- .debug_ranges  0x00000000000008b0      0x118 ./FreeRTOS_Source/queue.o
- .debug_ranges  0x00000000000009c8      0x1d8 ./FreeRTOS_Source/tasks.o
- .debug_ranges  0x0000000000000ba0       0xc0 ./FreeRTOS_Source/timers.o
- .debug_ranges  0x0000000000000c60       0x20 ./debug_serial.o
- .debug_ranges  0x0000000000000c80       0x20 ./drv_esp32.o
- .debug_ranges  0x0000000000000ca0       0x18 ./drv_spi1.o
- .debug_ranges  0x0000000000000cb8       0xb8 ./esp32_AT.o
- .debug_ranges  0x0000000000000d70       0x58 ./main.o
- .debug_ranges  0x0000000000000dc8       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x00000000000007a0       0x88 ./blinky_demo/main_blinky.o
+ .debug_ranges  0x0000000000000828       0x48 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .debug_ranges  0x0000000000000870       0x20 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+ .debug_ranges  0x0000000000000890       0x30 ./FreeRTOS_Source/list.o
+ .debug_ranges  0x00000000000008c0      0x118 ./FreeRTOS_Source/queue.o
+ .debug_ranges  0x00000000000009d8      0x1d8 ./FreeRTOS_Source/tasks.o
+ .debug_ranges  0x0000000000000bb0       0xc0 ./FreeRTOS_Source/timers.o
+ .debug_ranges  0x0000000000000c70       0x38 ./at.o
+ .debug_ranges  0x0000000000000ca8       0x20 ./debug_serial.o
+ .debug_ranges  0x0000000000000cc8       0x20 ./drv_esp32.o
+ .debug_ranges  0x0000000000000ce8       0x18 ./drv_spi1.o
+ .debug_ranges  0x0000000000000d00       0x88 ./esp32_AT.o
+ .debug_ranges  0x0000000000000d88       0x58 ./main.o
+ .debug_ranges  0x0000000000000de0       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
 
-.debug_macro    0x0000000000000000     0x4d41
+.debug_macro    0x0000000000000000     0x4e60
  .debug_macro   0x0000000000000000      0x1cd ./stdio/printf.o
  .debug_macro   0x00000000000001cd      0x476 ./stdio/printf.o
  .debug_macro   0x0000000000000643       0x6a ./stdio/printf.o
@@ -7768,146 +7809,150 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .debug_macro   0x000000000000315b       0x2e ./freedom-metal/src/uart.o
  .debug_macro   0x0000000000003189      0x1ba ./freedom-metal/gloss/synchronize_harts.o
  .debug_macro   0x0000000000003343       0x1b ./freedom-metal/gloss/sys_exit.o
- .debug_macro   0x000000000000335e      0x2a5 ./blinky_demo/main_blinky.o
- .debug_macro   0x0000000000003603      0x19f ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .debug_macro   0x00000000000037a2       0xe0 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
- .debug_macro   0x0000000000003882      0x178 ./FreeRTOS_Source/list.o
- .debug_macro   0x00000000000039fa      0x208 ./FreeRTOS_Source/queue.o
- .debug_macro   0x0000000000003c02      0x26b ./FreeRTOS_Source/tasks.o
- .debug_macro   0x0000000000003e6d       0x10 ./FreeRTOS_Source/tasks.o
- .debug_macro   0x0000000000003e7d      0x1cd ./FreeRTOS_Source/timers.o
- .debug_macro   0x000000000000404a       0x97 ./FreeRTOS_Source/timers.o
- .debug_macro   0x00000000000040e1      0x1b3 ./debug_serial.o
- .debug_macro   0x0000000000004294      0x1c8 ./drv_esp32.o
- .debug_macro   0x000000000000445c       0x10 ./drv_esp32.o
- .debug_macro   0x000000000000446c      0x106 ./drv_esp32.o
- .debug_macro   0x0000000000004572      0x1af ./drv_spi1.o
- .debug_macro   0x0000000000004721      0x3dc ./esp32_AT.o
- .debug_macro   0x0000000000004afd       0x16 ./esp32_AT.o
- .debug_macro   0x0000000000004b13      0x22e ./main.o
+ .debug_macro   0x000000000000335e      0x2af ./blinky_demo/main_blinky.o
+ .debug_macro   0x000000000000360d      0x19f ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00000000000037ac       0xe0 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+ .debug_macro   0x000000000000388c      0x178 ./FreeRTOS_Source/list.o
+ .debug_macro   0x0000000000003a04      0x208 ./FreeRTOS_Source/queue.o
+ .debug_macro   0x0000000000003c0c      0x26b ./FreeRTOS_Source/tasks.o
+ .debug_macro   0x0000000000003e77       0x10 ./FreeRTOS_Source/tasks.o
+ .debug_macro   0x0000000000003e87      0x1cd ./FreeRTOS_Source/timers.o
+ .debug_macro   0x0000000000004054       0x97 ./FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000000040eb      0x115 ./at.o
+ .debug_macro   0x0000000000004200      0x1b3 ./debug_serial.o
+ .debug_macro   0x00000000000043b3      0x1c8 ./drv_esp32.o
+ .debug_macro   0x000000000000457b       0x10 ./drv_esp32.o
+ .debug_macro   0x000000000000458b      0x106 ./drv_esp32.o
+ .debug_macro   0x0000000000004691      0x1af ./drv_spi1.o
+ .debug_macro   0x0000000000004840      0x3dc ./esp32_AT.o
+ .debug_macro   0x0000000000004c1c       0x16 ./esp32_AT.o
+ .debug_macro   0x0000000000004c32      0x22e ./main.o
 
-.debug_line     0x0000000000000000    0x18f77
- .debug_line    0x0000000000000000      0x825 ./stdio/printf.o
- .debug_line    0x0000000000000825      0x76a ./freedom-metal/src/drivers/fixed-clock.o
- .debug_line    0x0000000000000f8f      0x6ac ./freedom-metal/src/drivers/inline.o
- .debug_line    0x000000000000163b      0xd15 ./freedom-metal/src/drivers/riscv_clint0.o
- .debug_line    0x0000000000002350     0x163f ./freedom-metal/src/drivers/riscv_cpu.o
- .debug_line    0x000000000000398f      0xc9b ./freedom-metal/src/drivers/riscv_plic0.o
- .debug_line    0x000000000000462a      0x7cc ./freedom-metal/src/drivers/sifive_fe310-g000_hfrosc.o
- .debug_line    0x0000000000004df6      0x7b4 ./freedom-metal/src/drivers/sifive_fe310-g000_hfxosc.o
- .debug_line    0x00000000000055aa     0x1064 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
- .debug_line    0x000000000000660e      0x744 ./freedom-metal/src/drivers/sifive_fe310-g000_prci.o
- .debug_line    0x0000000000006d52      0xa79 ./freedom-metal/src/drivers/sifive_gpio-leds.o
- .debug_line    0x00000000000077cb      0x8da ./freedom-metal/src/drivers/sifive_gpio0.o
- .debug_line    0x00000000000080a5      0xbd9 ./freedom-metal/src/drivers/sifive_uart0.o
- .debug_line    0x0000000000008c7e      0x263 ./freedom-metal/src/clock.o
- .debug_line    0x0000000000008ee1      0xa47 ./freedom-metal/src/cpu.o
- .debug_line    0x0000000000009928       0xf9 ./freedom-metal/src/entry.o
- .debug_line    0x0000000000009a21      0x923 ./freedom-metal/src/gpio.o
- .debug_line    0x000000000000a344      0x7ff ./freedom-metal/src/interrupt.o
- .debug_line    0x000000000000ab43      0x944 ./freedom-metal/src/led.o
- .debug_line    0x000000000000b487      0x6f2 ./freedom-metal/src/shutdown.o
- .debug_line    0x000000000000bb79      0x6f9 ./freedom-metal/src/tty.o
- .debug_line    0x000000000000c272      0x269 ./freedom-metal/src/uart.o
- .debug_line    0x000000000000c4db      0x1f8 ./freedom-metal/gloss/crt0.o
- .debug_line    0x000000000000c6d3      0x6bf ./freedom-metal/gloss/synchronize_harts.o
- .debug_line    0x000000000000cd92       0xed ./freedom-metal/gloss/sys_exit.o
- .debug_line    0x000000000000ce7f      0xe0f ./blinky_demo/main_blinky.o
- .debug_line    0x000000000000dc8e      0xc14 ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .debug_line    0x000000000000e8a2      0x5b8 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
- .debug_line    0x000000000000ee5a      0x48f ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
- .debug_line    0x000000000000f2e9      0x7b8 ./FreeRTOS_Source/list.o
- .debug_line    0x000000000000faa1     0x1f71 ./FreeRTOS_Source/queue.o
- .debug_line    0x0000000000011a12     0x2a7a ./FreeRTOS_Source/tasks.o
- .debug_line    0x000000000001448c     0x109c ./FreeRTOS_Source/timers.o
- .debug_line    0x0000000000015528      0x762 ./debug_serial.o
- .debug_line    0x0000000000015c8a      0x780 ./drv_esp32.o
- .debug_line    0x000000000001640a      0x707 ./drv_spi1.o
- .debug_line    0x0000000000016b11     0x1220 ./esp32_AT.o
- .debug_line    0x0000000000017d31      0xb28 ./main.o
- .debug_line    0x0000000000018859      0x3d0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
- .debug_line    0x0000000000018c29      0x34e d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+.debug_line     0x0000000000000000    0x19460
+ .debug_line    0x0000000000000000      0x821 ./stdio/printf.o
+ .debug_line    0x0000000000000821      0x766 ./freedom-metal/src/drivers/fixed-clock.o
+ .debug_line    0x0000000000000f87      0x6a8 ./freedom-metal/src/drivers/inline.o
+ .debug_line    0x000000000000162f      0xd11 ./freedom-metal/src/drivers/riscv_clint0.o
+ .debug_line    0x0000000000002340     0x163b ./freedom-metal/src/drivers/riscv_cpu.o
+ .debug_line    0x000000000000397b      0xc97 ./freedom-metal/src/drivers/riscv_plic0.o
+ .debug_line    0x0000000000004612      0x7c8 ./freedom-metal/src/drivers/sifive_fe310-g000_hfrosc.o
+ .debug_line    0x0000000000004dda      0x7b0 ./freedom-metal/src/drivers/sifive_fe310-g000_hfxosc.o
+ .debug_line    0x000000000000558a     0x1060 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
+ .debug_line    0x00000000000065ea      0x740 ./freedom-metal/src/drivers/sifive_fe310-g000_prci.o
+ .debug_line    0x0000000000006d2a      0xa75 ./freedom-metal/src/drivers/sifive_gpio-leds.o
+ .debug_line    0x000000000000779f      0x8d6 ./freedom-metal/src/drivers/sifive_gpio0.o
+ .debug_line    0x0000000000008075      0xbd5 ./freedom-metal/src/drivers/sifive_uart0.o
+ .debug_line    0x0000000000008c4a      0x262 ./freedom-metal/src/clock.o
+ .debug_line    0x0000000000008eac      0xa43 ./freedom-metal/src/cpu.o
+ .debug_line    0x00000000000098ef       0xf9 ./freedom-metal/src/entry.o
+ .debug_line    0x00000000000099e8      0x91f ./freedom-metal/src/gpio.o
+ .debug_line    0x000000000000a307      0x7fb ./freedom-metal/src/interrupt.o
+ .debug_line    0x000000000000ab02      0x940 ./freedom-metal/src/led.o
+ .debug_line    0x000000000000b442      0x6ee ./freedom-metal/src/shutdown.o
+ .debug_line    0x000000000000bb30      0x6f5 ./freedom-metal/src/tty.o
+ .debug_line    0x000000000000c225      0x268 ./freedom-metal/src/uart.o
+ .debug_line    0x000000000000c48d      0x1f8 ./freedom-metal/gloss/crt0.o
+ .debug_line    0x000000000000c685      0x6bb ./freedom-metal/gloss/synchronize_harts.o
+ .debug_line    0x000000000000cd40       0xec ./freedom-metal/gloss/sys_exit.o
+ .debug_line    0x000000000000ce2c      0xfca ./blinky_demo/main_blinky.o
+ .debug_line    0x000000000000ddf6      0xc10 ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .debug_line    0x000000000000ea06      0x5b5 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+ .debug_line    0x000000000000efbb      0x48e ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
+ .debug_line    0x000000000000f449      0x7b4 ./FreeRTOS_Source/list.o
+ .debug_line    0x000000000000fbfd     0x1f6d ./FreeRTOS_Source/queue.o
+ .debug_line    0x0000000000011b6a     0x2a76 ./FreeRTOS_Source/tasks.o
+ .debug_line    0x00000000000145e0     0x1098 ./FreeRTOS_Source/timers.o
+ .debug_line    0x0000000000015678      0x506 ./at.o
+ .debug_line    0x0000000000015b7e      0x75e ./debug_serial.o
+ .debug_line    0x00000000000162dc      0x77d ./drv_esp32.o
+ .debug_line    0x0000000000016a59      0x704 ./drv_spi1.o
+ .debug_line    0x000000000001715d     0x10c4 ./esp32_AT.o
+ .debug_line    0x0000000000018221      0xb21 ./main.o
+ .debug_line    0x0000000000018d42      0x3d0 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000019112      0x34e d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
-.debug_str      0x0000000000000000    0x1772e
- .debug_str     0x0000000000000000     0x6d1c ./stdio/printf.o
-                                       0x7201 (size before relaxing)
- .debug_str     0x0000000000006d1c       0xa8 ./freedom-metal/src/drivers/fixed-clock.o
-                                       0x7066 (size before relaxing)
- .debug_str     0x0000000000006dc4       0x4d ./freedom-metal/src/drivers/inline.o
-                                       0x700b (size before relaxing)
- .debug_str     0x0000000000006e11      0x294 ./freedom-metal/src/drivers/riscv_clint0.o
-                                       0x7297 (size before relaxing)
- .debug_str     0x00000000000070a5      0xb4c ./freedom-metal/src/drivers/riscv_cpu.o
-                                       0x7be3 (size before relaxing)
- .debug_str     0x0000000000007bf1      0x257 ./freedom-metal/src/drivers/riscv_plic0.o
-                                       0x7297 (size before relaxing)
- .debug_str     0x0000000000007e48      0x1cd ./freedom-metal/src/drivers/sifive_fe310-g000_hfrosc.o
-                                       0x71aa (size before relaxing)
- .debug_str     0x0000000000008015      0x136 ./freedom-metal/src/drivers/sifive_fe310-g000_hfxosc.o
-                                       0x7175 (size before relaxing)
- .debug_str     0x000000000000814b     0x4a68 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
-                                       0xbbf7 (size before relaxing)
- .debug_str     0x000000000000cbb3       0x92 ./freedom-metal/src/drivers/sifive_fe310-g000_prci.o
-                                       0x70a1 (size before relaxing)
- .debug_str     0x000000000000cc45      0x14e ./freedom-metal/src/drivers/sifive_gpio-leds.o
-                                       0xa06a (size before relaxing)
- .debug_str     0x000000000000cd93      0x176 ./freedom-metal/src/drivers/sifive_gpio0.o
-                                       0x714e (size before relaxing)
- .debug_str     0x000000000000cf09      0x3f8 ./freedom-metal/src/drivers/sifive_uart0.o
-                                       0x768d (size before relaxing)
- .debug_str     0x000000000000d301       0xaa ./freedom-metal/src/clock.o
-                                       0x29df (size before relaxing)
- .debug_str     0x000000000000d3ab      0x22c ./freedom-metal/src/cpu.o
-                                       0x71fc (size before relaxing)
- .debug_str     0x000000000000d5d7       0x29 ./freedom-metal/src/entry.o
+.debug_str      0x0000000000000000    0x17708
+ .debug_str     0x0000000000000000     0x6d1b ./stdio/printf.o
+                                       0x7200 (size before relaxing)
+ .debug_str     0x0000000000006d1b       0xa8 ./freedom-metal/src/drivers/fixed-clock.o
+                                       0x7065 (size before relaxing)
+ .debug_str     0x0000000000006dc3       0x4d ./freedom-metal/src/drivers/inline.o
+                                       0x700a (size before relaxing)
+ .debug_str     0x0000000000006e10      0x294 ./freedom-metal/src/drivers/riscv_clint0.o
+                                       0x7296 (size before relaxing)
+ .debug_str     0x00000000000070a4      0xb4c ./freedom-metal/src/drivers/riscv_cpu.o
+                                       0x7be2 (size before relaxing)
+ .debug_str     0x0000000000007bf0      0x257 ./freedom-metal/src/drivers/riscv_plic0.o
+                                       0x7296 (size before relaxing)
+ .debug_str     0x0000000000007e47      0x1cd ./freedom-metal/src/drivers/sifive_fe310-g000_hfrosc.o
+                                       0x71a9 (size before relaxing)
+ .debug_str     0x0000000000008014      0x136 ./freedom-metal/src/drivers/sifive_fe310-g000_hfxosc.o
+                                       0x7174 (size before relaxing)
+ .debug_str     0x000000000000814a     0x4a68 ./freedom-metal/src/drivers/sifive_fe310-g000_pll.o
+                                       0xbbf6 (size before relaxing)
+ .debug_str     0x000000000000cbb2       0x92 ./freedom-metal/src/drivers/sifive_fe310-g000_prci.o
+                                       0x70a0 (size before relaxing)
+ .debug_str     0x000000000000cc44      0x14e ./freedom-metal/src/drivers/sifive_gpio-leds.o
+                                       0xa069 (size before relaxing)
+ .debug_str     0x000000000000cd92      0x176 ./freedom-metal/src/drivers/sifive_gpio0.o
+                                       0x714d (size before relaxing)
+ .debug_str     0x000000000000cf08      0x3f8 ./freedom-metal/src/drivers/sifive_uart0.o
+                                       0x768c (size before relaxing)
+ .debug_str     0x000000000000d300       0xaa ./freedom-metal/src/clock.o
+                                       0x29de (size before relaxing)
+ .debug_str     0x000000000000d3aa      0x22c ./freedom-metal/src/cpu.o
+                                       0x71fb (size before relaxing)
+ .debug_str     0x000000000000d5d6       0x29 ./freedom-metal/src/entry.o
+                                         0x9f (size before relaxing)
+ .debug_str     0x000000000000d5ff       0xe5 ./freedom-metal/src/gpio.o
+                                       0x70a8 (size before relaxing)
+ .debug_str     0x000000000000d6e4       0xee ./freedom-metal/src/interrupt.o
+                                       0x70b5 (size before relaxing)
+ .debug_str     0x000000000000d7d2       0x7e ./freedom-metal/src/led.o
+                                       0x9fdb (size before relaxing)
+ .debug_str     0x000000000000d850       0x5f ./freedom-metal/src/shutdown.o
+                                       0x7048 (size before relaxing)
+ .debug_str     0x000000000000d8af       0x39 ./freedom-metal/src/tty.o
+                                       0x6ff6 (size before relaxing)
+ .debug_str     0x000000000000d8e8       0x7e ./freedom-metal/src/uart.o
+                                       0x2ab5 (size before relaxing)
+ .debug_str     0x000000000000d966       0x1e ./freedom-metal/gloss/crt0.o
                                          0xa0 (size before relaxing)
- .debug_str     0x000000000000d600       0xe5 ./freedom-metal/src/gpio.o
-                                       0x70a9 (size before relaxing)
- .debug_str     0x000000000000d6e5       0xee ./freedom-metal/src/interrupt.o
-                                       0x70b6 (size before relaxing)
- .debug_str     0x000000000000d7d3       0x7e ./freedom-metal/src/led.o
-                                       0x9fdc (size before relaxing)
- .debug_str     0x000000000000d851       0x5f ./freedom-metal/src/shutdown.o
-                                       0x7049 (size before relaxing)
- .debug_str     0x000000000000d8b0       0x39 ./freedom-metal/src/tty.o
-                                       0x6ff7 (size before relaxing)
- .debug_str     0x000000000000d8e9       0x7e ./freedom-metal/src/uart.o
-                                       0x2ab6 (size before relaxing)
- .debug_str     0x000000000000d967       0x1e ./freedom-metal/gloss/crt0.o
-                                         0xa1 (size before relaxing)
- .debug_str     0x000000000000d985      0x10b ./freedom-metal/gloss/synchronize_harts.o
-                                       0x70c9 (size before relaxing)
- .debug_str     0x000000000000da90       0x2e ./freedom-metal/gloss/sys_exit.o
-                                       0x252c (size before relaxing)
- .debug_str     0x000000000000dabe     0x558f ./blinky_demo/main_blinky.o
-                                       0xca23 (size before relaxing)
- .debug_str     0x000000000001304d      0x3cd ./FreeRTOS_Source/portable/MemMang/heap_4.o
-                                       0xa6f6 (size before relaxing)
- .debug_str     0x000000000001341a      0x1de ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
-                                       0x74d8 (size before relaxing)
- .debug_str     0x00000000000135f8       0x61 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
-                                         0xe4 (size before relaxing)
- .debug_str     0x0000000000013659      0x149 ./FreeRTOS_Source/list.o
-                                       0x9e05 (size before relaxing)
- .debug_str     0x00000000000137a2      0x85d ./FreeRTOS_Source/queue.o
-                                       0xb472 (size before relaxing)
- .debug_str     0x0000000000013fff     0x1c1a ./FreeRTOS_Source/tasks.o
-                                       0xc1cc (size before relaxing)
- .debug_str     0x0000000000015c19      0x5ac ./FreeRTOS_Source/timers.o
-                                       0xb97c (size before relaxing)
- .debug_str     0x00000000000161c5       0x33 ./debug_serial.o
-                                       0x704c (size before relaxing)
- .debug_str     0x00000000000161f8      0x588 ./drv_esp32.o
-                                       0xb6b0 (size before relaxing)
- .debug_str     0x0000000000016780       0x51 ./drv_spi1.o
-                                       0xb624 (size before relaxing)
- .debug_str     0x00000000000167d1      0x9e2 ./esp32_AT.o
-                                      0x10577 (size before relaxing)
- .debug_str     0x00000000000171b3      0x22b ./main.o
-                                       0xadf8 (size before relaxing)
- .debug_str     0x00000000000173de      0x350 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_str     0x000000000000d984      0x10b ./freedom-metal/gloss/synchronize_harts.o
+                                       0x70c8 (size before relaxing)
+ .debug_str     0x000000000000da8f       0x2e ./freedom-metal/gloss/sys_exit.o
+                                       0x252b (size before relaxing)
+ .debug_str     0x000000000000dabd     0x5569 ./blinky_demo/main_blinky.o
+                                       0xca03 (size before relaxing)
+ .debug_str     0x0000000000013026      0x3cc ./FreeRTOS_Source/portable/MemMang/heap_4.o
+                                       0xa6f4 (size before relaxing)
+ .debug_str     0x00000000000133f2      0x1dd ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+                                       0x74d6 (size before relaxing)
+ .debug_str     0x00000000000135cf       0x60 ./FreeRTOS_Source/portable/GCC/RISC-V/portASM.o
+                                         0xe2 (size before relaxing)
+ .debug_str     0x000000000001362f      0x148 ./FreeRTOS_Source/list.o
+                                       0x9e03 (size before relaxing)
+ .debug_str     0x0000000000013777      0x85c ./FreeRTOS_Source/queue.o
+                                       0xb470 (size before relaxing)
+ .debug_str     0x0000000000013fd3     0x1c19 ./FreeRTOS_Source/tasks.o
+                                       0xc1ca (size before relaxing)
+ .debug_str     0x0000000000015bec      0x5ab ./FreeRTOS_Source/timers.o
+                                       0xb97a (size before relaxing)
+ .debug_str     0x0000000000016197       0x77 ./at.o
+                                       0x5c5c (size before relaxing)
+ .debug_str     0x000000000001620e       0x33 ./debug_serial.o
+                                       0x704b (size before relaxing)
+ .debug_str     0x0000000000016241      0x57f ./drv_esp32.o
+                                       0xb6af (size before relaxing)
+ .debug_str     0x00000000000167c0       0x51 ./drv_spi1.o
+                                       0xb623 (size before relaxing)
+ .debug_str     0x0000000000016811      0x97c ./esp32_AT.o
+                                      0x10513 (size before relaxing)
+ .debug_str     0x000000000001718d      0x22b ./main.o
+                                       0xadf7 (size before relaxing)
+ .debug_str     0x00000000000173b8      0x350 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
                                         0x7f8 (size before relaxing)
- .debug_str     0x000000000001772e      0x7db d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .debug_str     0x0000000000017708      0x7db d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
 .comment        0x0000000000000000       0x28
  .comment       0x0000000000000000       0x28 ./stdio/printf.o
@@ -7941,6 +7986,7 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .comment       0x0000000000000028       0x29 ./FreeRTOS_Source/queue.o
  .comment       0x0000000000000028       0x29 ./FreeRTOS_Source/tasks.o
  .comment       0x0000000000000028       0x29 ./FreeRTOS_Source/timers.o
+ .comment       0x0000000000000028       0x29 ./at.o
  .comment       0x0000000000000028       0x29 ./debug_serial.o
  .comment       0x0000000000000028       0x29 ./drv_esp32.o
  .comment       0x0000000000000028       0x29 ./drv_spi1.o
@@ -7949,6 +7995,7 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
+ .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
@@ -7958,8 +8005,11 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcat.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcpy.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strlen.o)
+ .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
+ .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
  .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000028       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
 
 .riscv.attributes
                 0x0000000000000000       0x2b
@@ -8030,49 +8080,59 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .riscv.attributes
                 0x000000000000055a       0x2b ./FreeRTOS_Source/timers.o
  .riscv.attributes
-                0x0000000000000585       0x2b ./debug_serial.o
+                0x0000000000000585       0x2b ./at.o
  .riscv.attributes
-                0x00000000000005b0       0x2b ./drv_esp32.o
+                0x00000000000005b0       0x2b ./debug_serial.o
  .riscv.attributes
-                0x00000000000005db       0x2b ./drv_spi1.o
+                0x00000000000005db       0x2b ./drv_esp32.o
  .riscv.attributes
-                0x0000000000000606       0x2b ./esp32_AT.o
+                0x0000000000000606       0x2b ./drv_spi1.o
  .riscv.attributes
-                0x0000000000000631       0x2b ./main.o
+                0x0000000000000631       0x2b ./esp32_AT.o
  .riscv.attributes
-                0x000000000000065c       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                0x000000000000065c       0x2b ./main.o
  .riscv.attributes
-                0x0000000000000687       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                0x0000000000000687       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
  .riscv.attributes
-                0x00000000000006b2       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
+                0x00000000000006b2       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
  .riscv.attributes
-                0x00000000000006dd       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
+                0x00000000000006dd       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
  .riscv.attributes
-                0x0000000000000708       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
+                0x0000000000000708       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atoi.o)
  .riscv.attributes
-                0x0000000000000733       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x0000000000000733       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
  .riscv.attributes
-                0x000000000000075e       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
+                0x000000000000075e       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
  .riscv.attributes
-                0x0000000000000789       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+                0x0000000000000789       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
  .riscv.attributes
-                0x00000000000007b4       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+                0x00000000000007b4       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
  .riscv.attributes
-                0x00000000000007df       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                0x00000000000007df       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
  .riscv.attributes
-                0x0000000000000808       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcat.o)
+                0x000000000000080a       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
  .riscv.attributes
-                0x0000000000000833       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcmp.o)
+                0x0000000000000835       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
  .riscv.attributes
-                0x000000000000085c       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcpy.o)
+                0x000000000000085e       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcat.o)
  .riscv.attributes
-                0x0000000000000887       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strlen.o)
+                0x0000000000000889       0x29 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcmp.o)
  .riscv.attributes
-                0x00000000000008b2       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
+                0x00000000000008b2       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strcpy.o)
  .riscv.attributes
-                0x00000000000008dd       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+                0x00000000000008dd       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strlen.o)
+ .riscv.attributes
+                0x0000000000000908       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strncpy.o)
+ .riscv.attributes
+                0x0000000000000933       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-strtol.o)
+ .riscv.attributes
+                0x000000000000095e       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
+ .riscv.attributes
+                0x0000000000000989       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+ .riscv.attributes
+                0x00000000000009b4       0x2b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
 
-.debug_frame    0x0000000000000000     0x3c28
+.debug_frame    0x0000000000000000     0x3c64
  .debug_frame   0x0000000000000000      0x120 ./stdio/printf.o
  .debug_frame   0x0000000000000120       0x84 ./freedom-metal/src/drivers/fixed-clock.o
  .debug_frame   0x00000000000001a4      0x208 ./freedom-metal/src/drivers/riscv_clint0.o
@@ -8095,19 +8155,20 @@ OUTPUT(RTOSDemo elf32-littleriscv)
  .debug_frame   0x0000000000001f98       0xd8 ./freedom-metal/src/uart.o
  .debug_frame   0x0000000000002070       0x34 ./freedom-metal/gloss/synchronize_harts.o
  .debug_frame   0x00000000000020a4       0x2c ./freedom-metal/gloss/sys_exit.o
- .debug_frame   0x00000000000020d0      0x1a4 ./blinky_demo/main_blinky.o
- .debug_frame   0x0000000000002274      0x13c ./FreeRTOS_Source/portable/MemMang/heap_4.o
- .debug_frame   0x00000000000023b0       0x78 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
- .debug_frame   0x0000000000002428       0xc4 ./FreeRTOS_Source/list.o
- .debug_frame   0x00000000000024ec      0x558 ./FreeRTOS_Source/queue.o
- .debug_frame   0x0000000000002a44      0x8d8 ./FreeRTOS_Source/tasks.o
- .debug_frame   0x000000000000331c      0x398 ./FreeRTOS_Source/timers.o
- .debug_frame   0x00000000000036b4       0x84 ./debug_serial.o
- .debug_frame   0x0000000000003738       0x88 ./drv_esp32.o
- .debug_frame   0x00000000000037c0       0x5c ./drv_spi1.o
- .debug_frame   0x000000000000381c      0x278 ./esp32_AT.o
- .debug_frame   0x0000000000003a94      0x174 ./main.o
- .debug_frame   0x0000000000003c08       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000000000020d0      0x1d0 ./blinky_demo/main_blinky.o
+ .debug_frame   0x00000000000022a0      0x13c ./FreeRTOS_Source/portable/MemMang/heap_4.o
+ .debug_frame   0x00000000000023dc       0x78 ./FreeRTOS_Source/portable/GCC/RISC-V/port.o
+ .debug_frame   0x0000000000002454       0xc4 ./FreeRTOS_Source/list.o
+ .debug_frame   0x0000000000002518      0x558 ./FreeRTOS_Source/queue.o
+ .debug_frame   0x0000000000002a70      0x8d8 ./FreeRTOS_Source/tasks.o
+ .debug_frame   0x0000000000003348      0x398 ./FreeRTOS_Source/timers.o
+ .debug_frame   0x00000000000036e0      0x100 ./at.o
+ .debug_frame   0x00000000000037e0       0x84 ./debug_serial.o
+ .debug_frame   0x0000000000003864       0x88 ./drv_esp32.o
+ .debug_frame   0x00000000000038ec       0x5c ./drv_spi1.o
+ .debug_frame   0x0000000000003948      0x188 ./esp32_AT.o
+ .debug_frame   0x0000000000003ad0      0x174 ./main.o
+ .debug_frame   0x0000000000003c44       0x20 d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
 
 .debug_loc      0x0000000000000000       0x6b
  .debug_loc     0x0000000000000000       0x6b d:/hifive1-revb/freedomstudio-2019-08-2-win64/sifive/riscv64-unknown-elf-gcc-8.3.0-2019.08.0/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)

@@ -1,0 +1,135 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bench Clock Reset Complete
+
+ATE0-->ATE0
+OK
+AT+BLEINIT=0-->OK
+AT+CWMODE=0-->OK
+
+AT+RST
+esp32>
+ready
+recv>0
+..NULL..
+ATE0
+esp32> ATE0
+esp32>
+OK
+recv>0
+..OK
+AT
+esp32>
+OK
+recv>0
+..OK
+AT+CWMODE=1
+esp32>
+OK
+recv>0
+..OK
+AT+CWJAP="my_SCTV_e","lahanquaa"
+esp32> WIFI CONNECTED
+esp32> WIFI GOT IP
+esp32>
+OK
+..OK
+AT+CIPSTART="TCP","hifivedemo.s3-ap-southeast-1.amazonaws.com",80,2
+Bench Clock Reset Complete
+
+ATE0-->ATE0
+OK
+AT+BLEINIT=0-->OK
+AT+CWMODE=0-->OK
+
+AT+RST
+esp32>
+ready
+recv>0
+..NULL..
+ATE0
+esp32> ATE0
+esp32>
+OK
+recv>0
+..OK
+AT
+esp32>
+OK
+recv>0
+..OK
+AT+CWMODE=1
+esp32>
+OK
+recv>0
+..OK
+AT+CWJAP="my_SCTV_e","lahanquaa"
+esp32> WIFI CONNECTED
+esp32> WIFI GOT IP
+esp32>
+OK
+..OK
+AT+CIPSTART="TCP","hifivedemo.s3-ap-southeast-1.amazonaws.com",80,2
+esp32> CONNECT
+esp32>
+OK
+recv>0
+..OK
+AT+CIPSEND=76
+esp32>
+OK
+recv>0
+..OK
+esp32>
+>GET /data.txt HTTP/1.1
+Host: hifivedemo.s3-ap-southeast-1.amazonaws.com
+
+esp32>
+Recv 76 bytes
+esp32>
+SEND OK
+esp32>
++IPD,369:HTTP/1.1 200 OK
+x-amz-id-2: 653spRaMI6lpZS3Bkrnm4pr9EL6r6trA5VkmtOYRtAkCu0J4nx+dqay2I3L8zXn572IJo5SzoVE=
+x-amz-request-id: 83A703150263B9D9
+Date: Sun, 01 Dec 2019 15:13:46 GMT
+Last-Modified: Fri, 29 Nov 2019 02:40:18 GMT
+ETag: "19e6e3e025d2784f88550d05a5a348ce"
+Accept-Ranges: bytes
+Content-Type: application/octet-stream
+Content-Length: 4
+Server: AmazonS3
+
+esp32>
++IPD,4:LEDRrecv>0
+..NULL..
+AT+CIPCLOSE
+esp32> CLOSED
+esp32>
+OK
+recv>0
+..OK
+LED Red on
+

@@ -16,8 +16,8 @@ SUBDIRS := \
 FreeRTOS_Source \
 FreeRTOS_Source/portable/GCC/RISC-V \
 FreeRTOS_Source/portable/MemMang \
-blinky_demo \
 . \
+blinky_demo \
 freedom-metal/gloss \
 freedom-metal/src \
 freedom-metal/src/drivers \

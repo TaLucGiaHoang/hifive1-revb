@@ -8,19 +8,10 @@
 #ifndef ESP32_AT_H_
 #define ESP32_AT_H_
 
-typedef enum {
-	AT_OK = 0,
-	AT_ERROR,
-	AT_CONNECT,
-	AT_DISCONNECT,
-	AT_SEND_OK,
-	AT_NULL,
-} at_t;
 
 void esp32_create_tasks(void);
 int esp32_send_cmd(const char* cmd, int wait_ms);
 size_t esp32_recv(char* msg, int msg_len);
-at_t esp32_process_message(char* msg, int msg_len);
 
 void esp32_reset_module(void);
 void esp32_echo_off(void);

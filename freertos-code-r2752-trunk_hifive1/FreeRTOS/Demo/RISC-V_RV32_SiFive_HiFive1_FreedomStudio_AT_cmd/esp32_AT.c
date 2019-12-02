@@ -1,14 +1,8 @@
 #include <string.h>
-#include <time.h>
 #include <metal/led.h>
-#include <metal/gpio.h>
-#include <metal/timer.h>
-#include <metal/spi.h>
-#include <metal/clock.h>
-#include <metal/uart.h> // serial uart
-#include <metal/machine.h> // serial uart
+
 #include "debug_serial.h"
-#include "drv_spi1.h"
+
 #include "drv_esp32.h"
 #include "esp32_AT.h"
 
@@ -42,33 +36,9 @@ struct ESP32_ST
 
 static void prvESP32Task(void* pvParameters);
 static void prvSpiRxTask(void* pvParameters);
-
-
-static int receive_1line(char* dst, char* src, size_t len);
 static int queue_send_cmd(int id, void* data, int len);
 static int queue_read_msg(char* s, int s_len);
 static int queue_send_msg_len(size_t msg_len);
-
-// Get 1 line in receive buffer
-static int receive_1line(char* dst, char* src, size_t len)
-{
-    size_t i = 0;
-    dst[0] = 0;
-    for (i = 0; i < len; i++) {
-		dst[i] = src[i];
-		if(dst[i] == '\n')
-		{
-			i++;
-			break;
-		}
-		if(dst[i] == 0)
-		{
-			break;
-		}
-    }
-    dst[i] = 0;
-    return i;
-}
 
 static void prvSpiRxTask( void *pvParameters )
 {
@@ -325,9 +295,10 @@ size_t esp32_recv(char* msg, int msg_len)
 			if( xQueueRxLen != 0 )
 			{
 				/* Wait to receive size from queue */
-				if( xQueueReceive( xQueueRxLen, ( void * ) &recv_len , portMAX_DELAY ) != pdPASS )
+				if( xQueueReceive( xQueueRxLen, ( void * ) &recv_len , ( TickType_t ) 10000 /*portMAX_DELAY*/ ) != pdPASS )
 				{
 					/* Failed to get from queue. */
+					recv_len = 0;
 				}
 			}
 		}
@@ -336,47 +307,6 @@ size_t esp32_recv(char* msg, int msg_len)
 	return recv_len;
 }
 
-at_t esp32_process_message(char* msg, int msg_len)
-{
-    // Parse AT response to get the result
-    int count;
-    char *s = msg;
-    int len = msg_len;
-
-    do {
-    	char tmp[100];
-    	count = receive_1line(tmp, s , len);
-    	if(count == 0)
-    		break;
-
-    	s += count; // move to next line
-
-        // Process each line
-        if (memcmp(tmp, "OK", 2) == 0) {
-        	debug_puts("..");debug_puts(tmp);
-        	return AT_OK;
-        } else if (memcmp(tmp, "ERROR", 5) == 0) {
-        	debug_puts("..");debug_puts(tmp);
-        	return AT_ERROR;
-        } else if (memcmp(tmp, "ERR CODE:", 9) == 0) {
-        	debug_puts("..OK..\n");
-        	// ERR CODE:0x010b0000
-        	// ERR CODE:0x01030000
-        	debug_puts("..");debug_puts(tmp);
-        	return AT_ERROR;
-        } /*else if (memcmp(tmp, "CONNECT", 2) == 0) {
-        	s_is_connect = AT_CONNECT;
-        } else if (memcmp(tmp, "DISCONNECT", 5) == 0) {
-        	s_is_connect = AT_DISCONNECT;
-        } else if (memcmp(tmp, "SEND OK", 5) == 0) {
-        	return = AT_OK;
-        }*/
-        len -= count;
-    }
-    while (len > 0);
-    debug_puts("..NULL..\n");
-    return AT_NULL;
-}
 
 //void esp32_wifi_conn(const char* ssid, const char* pssid, int wait_ms)
 //{

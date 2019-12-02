@@ -5,6 +5,11 @@
  *      Author: HoangSHC
  */
 
+//#include <metal/gpio.h>
+//#include <metal/timer.h>
+//#include <metal/spi.h>
+//#include <metal/clock.h>
+
 #include "drv_esp32.h"
 #include "drv_spi1.h"
 #include "debug_serial.h"

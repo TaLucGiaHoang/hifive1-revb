@@ -98,9 +98,10 @@ it at any time, and even with a queue length of 1, the sending task will never
 find the queue full. */
 #define mainQUEUE_LENGTH					( 1 )
 
-#define WIFI_SSID "my_SCTV_e" // "SHCVN02"
-#define WIFI_PASS "lahanquaa" // "khongduoc"
-
+//#define WIFI_SSID "my_SCTV_e"
+//#define WIFI_PASS "lahanquaa"
+#define WIFI_SSID "SHCVN02"
+#define WIFI_PASS "khongduoc"
 
 #define led_on(x)   metal_led_off(x) // metal_led goes wrong
 #define led_off(x)   metal_led_on(x)

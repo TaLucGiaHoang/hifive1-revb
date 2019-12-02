@@ -7,6 +7,11 @@
 
 #include "drv_spi1.h"
 
+//#include <metal/gpio.h>
+//#include <metal/timer.h>
+//#include <metal/spi.h>
+//#include <metal/clock.h>
+
 //#include <metal/drivers/sifive_spi0.h>
 //#include <metal/io.h>
 //#include <metal/machine.h>
